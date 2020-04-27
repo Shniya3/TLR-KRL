@@ -18,7 +18,7 @@
 #We use DKRL and its extension model. 
 #DKRL: "https://github.com/thunlp/DKRL"
 #Extended DKRL: ""
-#
+
 #Phase3: Recovery Traceablity link(Windows):
 #"eTour_experiment.py" is used to test our approach. 
 #We use numpy, sklearn, math 
