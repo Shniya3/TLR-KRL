@@ -1,0 +1,13 @@
+Case name: Loss of Paper and Identity
+Participating actors: Started by Citizen, continued as a clerk
+Flow of events:
+1. The Citizen presses the button Loss of identity card.
+2. The system sends a notification of loss of the card directly to the competent employee.
+3. The citizen goes to the clerk's office with a copy of the loss report.
+Entry condition:
+Citizen must be authenticated in the system.
+Exit conditions:
+The System creates the document to be delivered to the competent office, OR
+In case the service is not available the use case is recalled Service Not Available.
+Quality requirements:
+Not expected.

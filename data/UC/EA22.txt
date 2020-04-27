@@ -1,0 +1,21 @@
+Case name: RegistrationCitizen
+Participating actors: Started by Citizen
+Flow of events:
+1. The citizen accesses the registration form. 
+2. The system shows the form for the recording. 
+3. The citizen inserts his data and presses the confirmation button. 
+4. The system verifies the correctness of the data, saves them and sends a registration e-mail to the citizen.
+Entry condition:
+The citizen had access to the system.
+Exit conditions:
+The system registers the citizen, OR
+If the citizen enters incorrect data, the system calls the case Data, OR
+In case the service is not available the use case is recalled Service Not Available.
+Quality requirements:
+The string of the name corresponding to the name of the owner of the identity card e0, well formed e8 contains characters [a..z A..Z] and is less than 30 characters long and not e8 empty.
+The string of the surname corresponding to the name of the owner of the identity card e0, well formed e8 contains characters [a..z A..Z] and is less than 30 characters long and not e8 empty.
+The tax code string corresponding to the effective tax code of the owner, is compliant with the regulations and has a length of 16 characters.
+Identity Card string e0 e8 present in the system, e8 formed by XXnnnnnnn (X = letter n = number) and has a length of 9 characters.
+The e-mail string is composed of x@x.x and has a length less than 31 characters and is not e8 empty.
+The username string is not e8 already present in the system, well formed e8 contains characters [a..z A..Z 0..9. - _] and is less than 30 characters long and not empty.
+The well-formed password string contains characters [a..z A..Z 0..9. - _ * +! ? ,:;] length between 8 and 15 characters.

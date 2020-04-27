@@ -1,0 +1,11 @@
+Case name: Logout Employee
+Participating actors: Started as an employee
+Flow of events:
+1. The employee wants to finish the work session and click on the Logout button.
+2. The system disconnects the employee from the system and returns to the main screen.
+Entry condition:
+The employee is authenticated in the system.
+Exit conditions:
+The system closes the employee's session.
+Quality requirements:
+Not expected.

@@ -1,0 +1,22 @@
+<Class>
+    <Id>52</Id>
+    <Package>unisa.gps.etour.control.GestioneBeniCulturali</Package>
+    <ClassName>GestioneBeniCulturaliAgenzia</ClassName>
+    <SuperClass>GestioneBeniCulturaliComuneimplements</SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface></SuperInterface>
+    </SuperInterfaceList>
+    <FieldList/>
+    <MethodList>
+        <Method>
+            <MethodName>IGestioneBeniCulturaliAgenzia</MethodName>
+            <ReturnType></ReturnType>
+            <ParameterList>
+                <ParameterType></ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType></ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+    </MethodList>
+</Class>

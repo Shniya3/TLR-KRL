@@ -1,0 +1,23 @@
+<Class>
+    <Id>4</Id>
+    <Package>unisa.gps.etour.gui.operatoreagenzia.tables</Package>
+    <ClassName>BannerRenderer</ClassName>
+    <SuperClass>DefaultTreeCellRenderer</SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface></SuperInterface>
+    </SuperInterfaceList>
+    <FieldList/>
+    <MethodList>
+        <Method>
+            <MethodName>getTreeCellRendererComponent</MethodName>
+            <ReturnType>Component</ReturnType>
+            <ParameterList>
+                <ParameterType>pTree</ParameterType>
+                <ParameterType>Object</ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType></ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+    </MethodList>
+</Class>

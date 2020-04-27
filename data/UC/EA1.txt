@@ -1,0 +1,16 @@
+Case name: Authentication Administrator
+Participating actors: Started by administrator
+Flow of events: 
+1. The administrator accesses the system. 
+2. The system displays the login form for data entry (username and password).
+3. The administrator enters the data and submits the authentication request. 
+4. The system receives the form, verifies the data and allows access to the system administrator with access permissions specified.
+Entry condition: 
+The administrator has accessed the system.
+Exit conditions: 
+The system allows access to the administrator, OR
+If the administrator enters the wrong login and / or password, the system calls the case data, OR
+If the service is not available, the use case is called up Service Not Available.
+Quality requirements: 
+The string of the username e8 present in the system, well formed e8 contains characters [a..zA..Z0..9.-_] and a length less than 30 characters and not e8 empty.
+The password string e8 present in the system, well formed e8 contains characters [a..zA..Z0..9.-_ * +!?,:; e0 e8 e9 ec ecf2 f9] and has a length between 8 and 15 characters.

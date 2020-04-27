@@ -1,0 +1,11 @@
+UC17	UC39	uc2uc_link
+UC19	UC40	uc2uc_link
+UC20	UC38	uc2uc_link
+UC26	UC54	uc2uc_link
+UC32	UC31	uc2uc_link
+UC36	UC35	uc2uc_link
+UC38	UC20	uc2uc_link
+UC39	UC17	uc2uc_link
+UC40	UC19	uc2uc_link
+UC54	UC26	uc2uc_link
+UC8	UC43	uc2uc_link

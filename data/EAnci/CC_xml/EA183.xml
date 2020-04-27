@@ -1,0 +1,22 @@
+<Class>
+    <Id>43</Id>
+    <Package>Servlet</Package>
+    <ClassName>CercaFiles</ClassName>
+    <SuperClass></SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface></SuperInterface>
+    </SuperInterfaceList>
+    <FieldList/>
+    <MethodList>
+        <Method>
+            <MethodName>init</MethodName>
+            <ReturnType>void</ReturnType>
+            <ParameterList>
+                <ParameterType>ServletConfig</ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType>ServletException</ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+    </MethodList>
+</Class>

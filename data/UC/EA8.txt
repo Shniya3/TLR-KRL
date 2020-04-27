@@ -1,0 +1,11 @@
+Case name: Logout Administrator
+Participating actors: Started by Administrator
+Flow of events: 
+1. The administrator wants to terminate the work session and click on the Logout button.
+2. The system disconnects the administrator from the system and returns to the main screen.
+Entry condition: 
+The administrator is authenticated in the system.
+Exit conditions: 
+The system closes the administrator session.
+Quality requirements: 
+Not expected.

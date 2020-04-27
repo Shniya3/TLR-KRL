@@ -1,0 +1,37 @@
+<Class>
+    <Id>54</Id>
+    <Package>unisa.gps.etour.control.GestionePuntiDiRistoro</Package>
+    <ClassName>GestionePuntiDiRistoroAgenzia</ClassName>
+    <SuperClass>GestionePuntiDiRistoroComuneimplements</SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface></SuperInterface>
+    </SuperInterfaceList>
+    <FieldList>
+        <Field>
+            <FieldName>serialVersionUID</FieldName>
+            <FieldType>long</FieldType>
+        </Field>
+    </FieldList>
+    <MethodList>
+        <Method>
+            <MethodName>IGestionePuntiDiRistoroAgenzia</MethodName>
+            <ReturnType></ReturnType>
+            <ParameterList>
+                <ParameterType></ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType></ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+        <Method>
+            <MethodName>GestionePuntiDiRistoroAgenzia</MethodName>
+            <ReturnType>Constructorpublic</ReturnType>
+            <ParameterList>
+                <ParameterType></ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType>RemoteException</ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+    </MethodList>
+</Class>

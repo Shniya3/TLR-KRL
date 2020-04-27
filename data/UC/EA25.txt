@@ -1,0 +1,26 @@
+Case name: ChangeResidence
+Participating actors: Started by citizen, continued employed
+Flow of events
+1. The Citizen presses the Change of Residence button.
+2. The system shows the citizen the form to fill out.
+3. The citizen enters the data of his new home.
+4. The system notifies the citizen of the correct sending of the request and is stored in the system. 
+5. The employee accesses the system and displays the request received.
+6. The employee checks the data, fills the document with the rest of the data to be entered and confirms the operation. 
+7. The system saves the form and updates the data.
+Entry condition:
+The Citizen is authenticated in the system.
+Exit conditions:
+The System creates the document to be delivered to the competent office, OR
+In case the service is not available the use case is recalled Service Not Available.
+Quality requirements:
+The common name new residence string can f2 contain characters [a..z A..Z 'e0 e9 e8 ec and f2 f9. ] and the string must be non-empty.
+The address string can f2 contain characters [a..z A..Z 'e0 e9 e8 ec and f2 f9,. ] and the string must be non-empty.
+The street number string can f2 contain characters [0..9 A..Z] and the string must be less than 5 characters long.
+The telephone prefix string can f2 contain only numeric characters and must be between 2 and 5 digits.
+The telephone number string can only contain numeric characters and must be between 5 and 8 digits.
+The surname string family member can f2 include characters [a..z A..Z 'e0 e9 e8 ec and f2 f9] and have a maximum length of 30 characters and not empty.
+The string familiar name component can f2 include characters [a..z A..Z 'e0 e9 e8 ec and f2 f9] and have a maximum length of 30 characters and not empty.
+The string birth place comp familiar can f2 contain characters [a..z A..Z] and must be at least a character.
+The string given birth comp family must be an existing date and must have a numerical format dd / mm / yyyy (dd 1 to 31, mm 1 to 12, aaaa from 1900 to today).
+The requesting code string outside the municipality must consist of XXnnnnnnn (X = letter n = number) and must be 9 characters long.

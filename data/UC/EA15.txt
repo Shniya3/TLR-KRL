@@ -1,0 +1,15 @@
+Case name: Edit Employee
+Participating actors: Started by administrator
+Flow of events:
+1. The administrator presses the change employee button.
+2. The system shows a form for modifying the employee.
+3. The administrator enters the data. 
+4. The system saves the changes made.
+Entry condition:
+The administrator has authenticated himself in the system.
+(This case of use includes Employee Search) and occurs when the administrator wants to modify an employee
+Exit conditions:
+The system modifies the employee, OR
+The case is called if the service is not available. Service Not Available.
+Quality requirements:
+Not expected.

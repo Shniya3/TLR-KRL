@@ -1,0 +1,1702 @@
+unisa.gps.etour.control.GestioneUtentiRegistrati	management 
+Authentication	
+UnicastRemoteObject	
+IAutenticazione	authentication 
+serialVersionUID	series version 
+long	long 
+RemoteException	exception 
+login	login 
+int	int 
+String	string 
+byte	
+matchif	
+Passwords	
+unisa.gps.etour.gui.operatoreagenzia	
+Banner	banner 
+JInternalFrame	
+jContentPane	
+JPanel	
+rightPanel	
+JToolBar	
+Private	
+btnInserisci	insert 
+JButton	
+btnSostituisci	
+btnElimina	delete 
+JScrollPane	
+helpPanel	
+textGuida	
+JTextPane	
+TagPanel	tag 
+btnRicerca	search 
+btnAzzera	
+panelSearch	search 
+nomePR	name ristoro 
+JTextField	
+treeBanner	banner 
+JTree	
+JDesktopPane	
+HelpManager	manager 
+desktopManager	manager 
+DeskManager	manager 
+gestionePuntiRistoro	management point refreshment 
+IGestionePuntiDiRistoroAgenzia	management point of refreshment agency 
+gestioneBanner	management banner 
+IGestioneAdvertisementAgenzia	management agency 
+tags	tag 
+IGestioneTagComune	management tag common 
+internalFrameOpened	
+void	void 
+InternalFrameEvent	
+TRY	
+Registry	
+actionPerformed	perform 
+ActionEvent	
+getBtnSostituisci	search 
+createTree	create 
+BeanPuntoDiRistoro	bean point of refreshment 
+ValueChanged	
+TreeSelectionEvent	
+getRightPanel	search 
+getHelpPanel	search 
+getBtnRicerca	search search 
+OpenDialog	
+DefaultMutableTreeNode	
+BannerDialog	banner 
+panel	
+the	
+dialog	
+a	
+entering	enter 
+banner	banner 
+New	
+or	
+selected	select 
+replacing	replace 
+Gallo	
+Mario	
+Project	
+eTour	
+by	
+Copyright	
+of	
+University	
+bannerSize	banner 
+Dimension	
+preview	
+JLabel	
+btnCarica	load 
+that	
+is	is 
+This	
+setSelectedBanner	set select banner 
+ImageIcon	
+getSelectedBanner	search select banner 
+apriFileDialog	open 
+File	
+accept	
+boolean	boolean 
+getDescription	search 
+unisa.gps.etour.gui.operatoreagenzia.tables	
+BannerNode	banner 
+node	
+in	
+to	to 
+about	
+Information	
+id	id 
+IllegalArgumentException	exception 
+getParent	search 
+PRNode	
+getID	search id 
+setID	set id 
+getBanner	search banner 
+setBanner	set banner 
+BannerRenderer	banner 
+DefaultTreeCellRenderer	
+getTreeCellRendererComponent	search 
+Component	
+pTree	
+Object	
+unisa.gps.etour.bean	
+BeanBanner	bean banner 
+Serializable	
+idPuntoDiRistoro	id point of refreshment 
+filepath	
+constructor	
+Parameterized	
+getPercorsoFile	search 
+setPercorsoFile	set 
+getId	search id 
+getIdPuntoDiRistoro	search id point of refreshment 
+setId	set id 
+setIdPuntoDiRistoro	set id point of refreshment 
+BeanBeneCulturale	bean good cultural 
+numeroVoti	number vote 
+name	
+city	
+phone	
+description	
+location	
+street	
+cap	
+province	
+giornoChiusura	day close 
+Punto3D	
+orarioApertura	schedule open 
+Date	date 
+orarioChiusura	schedule close 
+costoBiglietto	cost ticket 
+double	double 
+mediaVoti	vote 
+PCitta	city 
+PLocalita	location 
+pcap	
+getGiornoChiusura	search day close 
+setGiornoChiusura	set day close 
+getCap	search 
+setCap	set 
+getCitta	search city 
+setCitta	set city 
+getCostoBiglietto	search cost ticket 
+setCostoBiglietto	set cost ticket 
+getDescrizione	search description 
+setDescrizione	set description 
+getLocal	search location 
+setLocale	set location 
+getMediaVoti	search vote 
+setMediaVoti	set vote 
+getName	search name 
+setNome	set name 
+getNumeroVoti	search number vote 
+setNumeroVoti	set number vote 
+getOrarioApertura	search schedule open 
+setOrarioApertura	set schedule open 
+getOrarioChiusura	search schedule close 
+setOrarioChiusura	set schedule close 
+getPosizione	search position 
+setPosizione	set position 
+getProvincia	search province 
+setProvincia	set province 
+getTelefono	search telephone 
+setTelefono	set telephone 
+getVar	search 
+setvar	
+BeanConvenzione	bean convention 
+maxBanner	banner 
+StartDate	date 
+EndDate	date 
+price	
+active	active 
+isAttiva	is active 
+setAttiva	set active 
+getDataFine	search date end 
+setDataFine	set date end 
+getDataInizio	search date start 
+setDataInizio	set date start 
+getMaxBanner	search banner 
+setMaxBanner	set banner 
+getPrezzo	search price 
+setPrezzo	set price 
+BeanMenu	bean 
+day	
+getGiorno	search day 
+setGiorno	set day 
+BeanNews	bean news 
+news	news 
+dataPubblicazione	date publication 
+dataScadenza	date expiry 
+priority	
+getDataPubblicazione	search date publication 
+setDataPubblicazione	set date publication 
+getDataScadenza	search date expiry 
+setDataScadenza	set date expiry 
+getNews	search news 
+setNews	set news 
+getPriorita	search priority 
+setPriorita	set priority 
+BeanOperatoreAgenzia	bean operator agency 
+username	
+password	password 
+PCognome	surname 
+getCognome	search surname 
+setCognome	set surname 
+getPassword	search password 
+setPassword	set password 
+GetUserName	get name 
+setUsername	set 
+BeanOperatorePuntoDiRistoro	bean operator point of refreshment 
+email	email 
+Phnom	
+PUsername	
+getEmail	search email 
+setEmail	set email 
+BeanPiatto	bean plate 
+idMenu	id 
+getIdMenu	search id 
+setIdMenu	set id 
+BeanPreferenzaDiRicerca	bean preference of search 
+BeanPreferenzeGeneriche	bean preference general 
+dimensioneFont	dimension 
+font	
+subject	theme 
+idTurista	id tourist 
+PTema	theme 
+getDimensioneFont	search dimension 
+setDimensioneFont	set dimension 
+getFont	search 
+setFont	set 
+getTema	search theme 
+September	
+getIdTurista	search id tourist 
+setIdTurista	set id tourist 
+PartitaIva	political 
+pVia	via 
+PProvincia	province 
+getPartitaIva	search political 
+setPartitaIva	set political 
+BeanTag	bean tag 
+BeanTurista	bean tourist 
+cittaNascita	city born 
+cittaResidenza	city residence 
+dob	
+dataRegistrazione	date registration 
+PTelefono	telephone 
+PEmail	email 
+getCittaNascita	search city born 
+setCittaNascita	set city born 
+getCittaResidenza	search city residence 
+setCittaResidenza	set city residence 
+getDataNascita	search date born 
+setDataNascita	set date born 
+getDataRegistrazione	search date registration 
+setDataRegistrazione	set date registration 
+BeanVisitaBC	bean visit culturale 
+rating	rate 
+idBeneCulturale	id good cultural 
+comment	
+IdTurista	id tourist 
+dataVisita	date visit 
+getCommento	search comment 
+setCommento	set comment 
+getDataVisita	search date visit 
+setDataVisita	set date visit 
+getIdBeneCulturale	search id good cultural 
+setIdBeneCulturale	set id good cultural 
+getVoto	search vote 
+setVoto	set vote 
+BeanVisitaPR	bean visit ristoro 
+Beniculturali	
+btnNuovoBC	new 
+btnSchedaBC	card 
+btnEliminaBC	delete 
+btnModificaBC	modify 
+searchPanel	search 
+tableBC	
+JTable	
+nomeBC	name culturale 
+children	
+ArrayList	list 
+TableModel	
+SitoTableModel	site 
+IGestioneBeniCulturaliAgenzia	management asset cultural agency 
+ricercaBC	search culturale 
+IGestioneBeniCulturaliComune	management asset cultural common 
+Gaim	
+MSN	
+getBtnSchedaBC	search card 
+getBtnEliminaBC	search delete 
+ListSelectionEvent	
+keyPressed	
+KeyEvent	
+caricaTabella	
+caricaTags	tag 
+organizzaRiga	
+unisa.gps.etour.control.fuzzy	
+Category	
+Class	
+describes	describe 
+characteristics	characteristic 
+Contains	contain 
+Hashtable	
+represents	represent 
+on	
+dictionary	
+category	
+The	
+contains	contain 
+term	
+each	
+In	in 
+values	value 
+frequency	
+distance	
+relevance	
+and	
+methods	method 
+Provides	provide 
+access	
+modify	update 
+auxiliary	
+categoryprivate	
+terms	term 
+string	
+list	
+frequencies	
+their	
+Get	get 
+as	
+parameter	
+getval	
+float[]	
+pTermine	term 
+NullPointerException	exception 
+addTermine	insert term 
+setValTermine	set value term 
+setTermini	set term 
+esisteTermine	exist term 
+unisa.gps.etour.control.GestioneBeniCulturali	management asset cultural 
+ControlloBeniCulturali	control asset cultural 
+task	
+checking	check 
+data	date 
+object	
+cultural	
+consistency	
+Various	
+are	
+checks	check 
+such	
+length	
+reference	
+Null	
+dynamic	
+incorrect	error 
+types	type 
+De	
+Michelangelo	
+Please	
+check	check 
+calling	
+appropriate	
+method	
+unisa.gps.etour.util	
+ControlloDati	control data 
+letter	
+numbers	
+max_length	
+Static	
+correctness	correct 
+verifying	
+pStringa	string 
+Boolean	boolean 
+letterePermesse	letters permission 
+it	
+allowed	allow 
+present	
+be	
+Letters	
+False	
+numeriPermessi	number 
+Numbers	
+containing	contain 
+characters	
+all	
+Allowed	allow 
+contentente	contain 
+caratteriNecessari	character necessary 
+Must	
+integer	
+numeroCaratteriMin	number character 
+representing	
+number	
+minimum	
+Characters	
+numeroCaratteriMax	number character 
+maximum	
+witch	
+meets	
+controllaStringa	check string 
+falseif	
+returns	return 
+stringif	
+checkfor	
+correggiStringa	error string 
+controllaData	check date 
+controllaDate	check date 
+checkBeanTurista	check bean tourist 
+checkBeanPreferenzaDiRicerca	check bean preference of search 
+checkBeanPreferenzeGeneriche	check bean preference general 
+checkBeanBeneCulturale	check bean good cultural 
+checkBeanPuntoDiRistoto	check bean point of resource 
+checkBeanOperatorePuntoDiRistoro	check bean operator point of refreshment 
+checkBeanBanner	check bean banner 
+checkImmagine	check image 
+checkBeanNews	check bean news 
+checkBeanTag	check bean tag 
+checkBeanConvenzione	check bean convention 
+checkBeanMenu	check bean 
+checkBeanPiatto	check bean plate 
+checkBeanVisitaBC	check bean visit culturale 
+checkBeanVisitaPR	check bean visit ristoro 
+com.trapan.spg.control.GestioneAdvertisement	management 
+ControlloDatiAdvertisement	control data 
+formal	
+control	
+content	
+Data	date 
+bean	
+passed	pass 
+pBanner	banner 
+controlloBanner	control banner 
+controlloNews	control news 
+ControlloVisiteBeniCulturali	control visit asset cultural 
+monitoring	monitor 
+from	
+pVBC	
+visit	
+result	
+controllaDatiVisitaBeneCulturale	check data visit good cultural 
+touristif	
+its	
+vote	
+beanif	
+controllaDatiNulli	check data null 
+feedbackif	
+unisa.gps.etour.control	
+ControlServerLauncher	
+Make	
+deployment	deploy 
+services	service 
+RMI	
+rendering	render 
+thus	
+Some	
+available	
+usable	
+point	
+Entry	
+ControlServer	
+args	
+line	
+command	
+main	
+String[]	
+EXPERIMENTALTRY	
+EXPERIMENTAL	
+CostantiGlobali	constant global 
+precedence	
+Highest	
+MAX_PRIORITY_NEWS	
+least	
+Priority	
+one	
+MIN_PRIORITY_NEWS	
+Maximum	
+MAX_NEWS_ATTIVE	
+Path	street 
+directory	
+images	
+stored	store 
+Banners	banner 
+SERVER_IMAGE_PATH	
+URL	
+server	
+calls	
+server_url	
+Milliseconds	
+TRENTA_GIORNI	
+unisa.gps.etour.control.GestioneAdvertisement.test.stubs	management 
+DBBanner	banner database 
+IDBBanner	banner 
+used	
+Is	is 
+Palladino	
+Fabio	
+NUM_TEST	
+cancellaBanner	cancel banner 
+SQLException	exception sql 
+inserisciBanner	insert banner 
+modificaBanner	modify banner 
+ottieniBannerDaID	get banner from id 
+setNUM_TEST	set 
+unisa.gps.etour.control.GestioneBeniCulturali.test.stub	management asset 
+DBBeneCulturale	good cultural database 
+IDBBeneCulturale	good cultural 
+b	
+cancellaBeneCulturale	cancel good cultural 
+inserisciBeneCulturale	insert good cultural 
+modificaBeneCulturale	modify good cultural 
+ottieniBeneCulturale	get good cultural 
+ottieniNumeroElementiRicerca	get number element search 
+ottieniNumeroElementiRicercaAvanzata	get number element search advance 
+PKeyword	
+search	search 
+unisa.gps.etour.repository	
+DBConnessionePool	connection pool database 
+driver	
+urlConnessione	connection 
+connessioniLibere	
+List	
+Connection	connection 
+initiates	
+connection	connection 
+DBConvenzione	convention database 
+IDBConvenzione	convention 
+cancellaConvenzione	cancel convention 
+inserisciConvenzione	insert convention 
+modificaConvenzione	modify convention 
+ottieniConvezioneAttiva	get active 
+DBMenu	
+IDBMenu	
+Martone	
+Joseph	
+DMI	
+Lab	
+Salerno	
+Of	
+constructorpublic	
+Empty	
+cancellaMenu	cancel 
+backupreturn	
+inserisciMenu	insert 
+modificaMenu	modify 
+Connectionfinally	
+And	
+ottieniMenuDelGiorno	get day 
+DBNews	news database 
+IDBNews	news 
+field	
+stores	
+test	
+cancellaNews	cancel news 
+inserisciNews	insert news 
+modificaNews	modify news 
+DBOperatoreAgenzia	operator agency database 
+IDBOperatoreAgenzia	operator agency 
+ottieniOperatoreAgenzia	get operator agency 
+connectionTRY	connection 
+database	
+madeif	
+was	
+modificaPassword	modify password 
+DBOperatorePuntoDiRistoro	operator point of refreshment database 
+IDBOperatorePuntoDiRistoro	operator point of refreshment 
+cancellaOperatorePuntoDiRistoro	cancel operator point of refreshment 
+inserisciOperatorePuntoDiRistoro	insert operator point of refreshment 
+emptyif	
+existelse	
+already	
+modificaOperatorePuntoDiRistoro	modify operator point of refreshment 
+ottieniOperatorePuntoDiRistoro	get operator point of refreshment 
+errorcatch	
+an	
+Exception	exception 
+DBPiatto	plate database 
+IDBPiatto	plate 
+cancellaPiatto	cancel plate 
+inserisciPiatto	insert plate 
+DBPreferenzeDiRicerca	preference of search database 
+IDBPreferenzeDiRicerca	preference of search 
+cancellaPreferenzaDiRicerca	cancel preference of search 
+cancellaPreferenzaDiRicercaBC	cancel preference of search culturale 
+cancellaPreferenzaDiRicercaPR	cancel preference of search ristoro 
+cancellaPreferenzaDiRicercaTurista	cancel preference of search tourist 
+inserisciPreferenzaDiRicercaDelBC	insert preference of search 
+inserisciPreferenzaDiRicerca	insert preference of search 
+inserisciPreferenzaDiRicercaDelPR	insert preference of search 
+inserisciPreferenzaDiRicercaDelTurista	insert preference of search tourist 
+ottieniPreferenzeDiRicercaDelBC	get preference of search 
+ottieniPreferenzeDiRicercaDelPR	get preference of search 
+ottieniPreferenzeDiRicercaDelTurista	get preference of search tourist 
+DBPreferenzeGeneriche	preference general database 
+IDBPreferenzeGeneriche	preference general 
+without	
+Constructor	
+parameterspublic	
+cancellaPreferenzaGenerica	cancel preference 
+inserisciPreferenzaGenenerica	insert preference 
+modificaPreferenzaGenerica	modify preference 
+ottieniPreferenzaGenerica	get preference 
+DBPuntoDiRistoro	point of refreshment database 
+IDBPuntoDiRistoro	point of refreshment 
+cancellaPuntoDiRistoro	cancel point of refreshment 
+inserisciPuntoDiRistoro	insert point of refreshment 
+modificaPuntoDiRistoro	modify point of refreshment 
+AND	
+count	
+SELECT	
+JOIN	
+appartenenzapr	
+FROM	
+puntodiristoro	
+DBStatisticheLocalita	statistics location database 
+IDBStatisticheLocalita	statistics location 
+ottieniMedieVotiLocalita	get vote location 
+heritagereturn	
+good	
+DBTag	tag database 
+IDBTag	tag 
+aggiungeTagBeneCulturale	tag good cultural 
+aggiungeTagPuntoDiRistoro	tag point of refreshment 
+cancellaTag	cancel tag 
+cancellaTagBeneCulturale	cancel tag good cultural 
+cancellaTagPuntoDiRistoro	cancel tag point of refreshment 
+inserisciTag	insert tag 
+modificaTag	modify tag 
+ottieniTag	get tag 
+DBTurista	tourist database 
+IDBTurista	tourist 
+cancellaBeneCulturalePreferito	cancel good cultural favorite 
+cancellaPuntoDiRistoroPreferito	cancel point of refreshment favorite 
+delete	delete 
+inserisciBeneCulturalePreferito	insert good cultural favorite 
+inserisciPuntoDiRistoroPreferito	insert point of refreshment favorite 
+inserisciTurista	insert tourist 
+modificaTurista	modify tourist 
+ottieniTurista	get tourist 
+DBVisitaBC	visit 
+IDBVisitaBC	visit 
+inserisciVisitaBC	insert visit culturale 
+modificaVisitaBC	modify visit culturale 
+DBVisitaPR	visit 
+IDBVisitaPR	visit 
+inserisciVisitaPR	insert visit ristoro 
+modificaVisitaPR	modify visit ristoro 
+ottieniVisitaPR	get visit ristoro 
+unisa.gps.etour.gui	
+DefaultDesktopManager	manager 
+URL_IMAGES	
+deskMenu	
+JPopupMenu	
+riduciTutti	
+JMenuItem	
+ripristinaTutti	
+Closeall	
+iconifiedFrames	
+Vector	
+locationX	
+locationY	
+Default	
+i	
+xLocation	
+yLocation	
+dragFrame	
+AComponent	
+iconifyFrame	
+deiconifyFrame	
+activateFrame	
+centerFrame	
+repaintIconifiedFrames	
+iterator	
+iconifiedFrames.iterator	
+iconificati.next	
+Redraw	
+repaintAllFrames	
+ElencoCategorie	list category 
+track	
+Keeps	
+categories	
+table	
+hash	
+keeps	
+For	
+totTermini	term 
+distances	
+initializes	initialize 
+two	
+tables	
+Categories	
+getMaxDist	search 
+float	
+getTermine	search term 
+addCategoria	insert 
+star	
+setCategoria	set 
+setTermine	set term 
+setMaxDist	set 
+FeedBackTableModel	
+AbstractTableModel	
+headers	
+only	
+We	
+provide	
+but	
+model	
+no	
+Loads	
+?	
+getColumnCount	search 
+GetRowCount	get 
+getColumnName	search name 
+getValueAt	search 
+Fuzzy	
+calculating	
+distaza	
+Returns	return 
+timereturn	
+Total	
+unisa.gps.etour.control.GestioneAdvertisement	management 
+GestioneAdvertisement	management 
+IGestioneAdvertisement	management 
+An	
+handles	
+operations	operate 
+instantiates	instantiate 
+type	
+perform	
+Entity	
+Imagelcon	image 
+HashMap	
+GestioneAdvertisementAgenzia	management agency 
+collecting	collect 
+Constructor.Instantiates	instantiate 
+Catch	
+GestioneAdvertisementPuntoDiRistoro	management point of refreshment 
+GestioneAdvertisementimplements	management 
+call	
+superclass	
+IGestioneAdvertisementPuntoDiRistoro	management point of refreshment 
+GestioneBeniCulturaliAgenzia	management asset cultural agency 
+GestioneBeniCulturaliComuneimplements	management asset cultural 
+GestioneBeniCulturaliComune	management asset cultural common 
+Connect	
+Heritageprotected	
+Cultural	
+dbbc	
+Tagprotected	
+DB	database 
+dbtag	
+Feedback	feedback 
+Visitsprotected	
+Touristsprotected	
+instantiate	
+you	
+fields	
+relevant	
+management	manage 
+Fields	
+instance	
+usernamefor	
+daysfor	
+modificaFeedbackBeneCulturale	modify feedback good cultural 
+unisa.gps.etour.control.GestionePuntiDiRistoro	management point of refreshment 
+GestionePuntiDiRistoroAgenzia	management point of refreshment agency 
+GestionePuntiDiRistoroComuneimplements	management point of refreshment 
+Constructorpublic	
+GestionePuntiDiRistoroComune	management point of refreshment common 
+IGestionePuntiDiRistoroComune	management point of refreshment common 
+connectionsprivate	
+puntoRistoro	point refreshment 
+dbTurista	database tourist 
+DatabaseTRY	
+Exceptioncatch	
+changed	
+ottieniPuntoDiRistoro	get point of refreshment 
+operationscatch	
+factorscatch	
+other	
+databasecatch	
+ottieniUltimiCommenti	get ultimate 
+algorithmsfor	
+sorting	
+ottieniStatistichePuntoDiRistoro	get statistics point of refreshment 
+Integer	
+countersfor	
+Visitsfor	
+unisa.gps.etour.control.GestioneTag	management tag 
+GestioneTagComune	management tag common 
+connectionprotected	
+GestioneTagOperatoreAgenzia	management tag operator agency 
+Tag	tag 
+common	
+Morelli	
+implementsIGestioneTagOperatoreAgenzia	implement management tag operator agency 
+dataif	
+past	
+Databasecatch	
+checkTag	check tag 
+GestioneTuristaClient	management tourist 
+GestioneTuristaComune	management tourist common 
+Management	manage 
+touristsPrivate	tourist 
+manager	
+general	
+touristPrivate	
+Handle	
+preferences	preference 
+Managing	manage 
+VisitedPrivate	visit 
+catering	cater 
+Manager	manager 
+visitedPrivate	visit 
+outlets	
+beneCulturale	good cultural 
+implementsIGestioneTuristaClient	implement management tourist 
+heritage	
+we	
+areas	area 
+use	
+cancellaPreferenzeDiRicerca	cancel preference of search 
+cancellaPreferenzeGeneriche	cancel preference general 
+inserisciPreferenzeGeneriche	insert preference general 
+modificaPreferenzeGeneriche	modify preference general 
+ottieniPreferenzeDiRicerca	get preference of search 
+BeanPreferenzaDiRicerca[]	bean preference of 
+Convert	
+listaPreferenze.toArray	list 
+ottieniPreferenzeGeneriche	get preference general 
+ottieniBeniCulturaliVisitati	get asset cultural 
+BeanVisitaBC[]	bean visit 
+ottieniPuntiDiRistoroVisitati	get point of refreshment 
+BeanVisitaPR[]	bean visit 
+inserisciBeneCulturaleVisitato	insert good cultural 
+inserisciPuntoDiRistoroVisitato	insert point of refreshment 
+ottieniBeniCulturaliPreferiti	get asset cultural 
+BeanBeneCulturale[]	bean good 
+counterfor	
+Cycle	
+ottieniPuntiDiRistoroPreferiti	get point of refreshment 
+BeanPuntoDiRistoro[]	bean point of 
+tourist	
+turn	
+richama	
+via	street 
+connect	
+Instantiate	
+databasepublic	
+Tourists	tourist 
+connectioncatch	
+amendmentTRY	
+identifierif	
+validity	
+dataTRY	date 
+Retrieve	
+GestioneTuristiAgenzia	management tourist agency 
+implementsIGestioneTuristiAgenzia	implement management tourist agency 
+ottenuroif	
+layer	
+ottieniTuristi	get tourist 
+attivaTurista	active tourist 
+input	
+activatedif	
+databaseif	
+disattivaTurista	disable tourist 
+activeif	
+trueif	
+returnTRY	search 
+variable	
+MouseAdapter	
+mechanism	
+sensitive	
+JTextComponent	
+previousMessage	
+creates	create 
+help	
+online	
+files	
+guide	
+itself	
+component	
+which	
+appear	
+path	street 
+file	
+pComponent	
+display	
+specified	
+not	
+FileNotFoundException	exception 
+mouseEntered	
+MouseEvent	
+Remote	
+constants	constant 
+identify	
+users	user 
+VISITORS	
+OP_PUNTO_DI_RISTORO	
+Method	
+authenticate	
+user	
+registered	register 
+Add	insert 
+information	
+Modify	update 
+contents	
+advertisement	
+before	
+Bean	bean 
+Delete	delete 
+ID	id 
+pIdBanner	id banner 
+deleted	
+refreshment	
+complete	
+pIdPuntoDiRistoro	id point of refreshment 
+Id	id 
+obtain	
+linked	
+banners	banner 
+Refreshment	
+given	give 
+found	
+pBene	good 
+inclusion	
+pIdBene	id good 
+property	
+with	
+pId	id 
+extracted	
+obtained	
+Research.Returns	return 
+Description	
+according	
+filtered	
+returned	
+goods	
+browse	
+To	to 
+real	
+may	
+elements	element 
+Ten	
+numPagina	number page 
+paramtro	parameter 
+keyword	
+Name	name 
+pTags	tag 
+filter	
+should	
+included	include 
+exceed	
+If	
+will	
+Excess	
+ignored	
+pNumPagina	number page 
+page	
+want	
+view	search 
+get	search 
+pIdTurista	id tourist 
+identifier	
+who	
+tourists	tourist 
+out	
+carried	
+researchPKeyword	
+position	
+pPosizione	position 
+person	
+research	
+pDistanzaMassima	max 
+convention	
+Convention	
+pConvenzione	convention 
+adding	
+agreement	
+pIdConvenzione	id convention 
+been	
+conventions	convention 
+historical	
+Refreshments	refreshment 
+identification	
+argument	
+PR	ristoro 
+have	
+ottieniStoricoConvenzione	get history convention 
+Adds	
+menu	
+pMenu	
+add	insert 
+change	update 
+pIdMenu	id 
+Day	
+pGiorno	day 
+week	
+de	
+News	news 
+Pnews	
+pIdNews	id news 
+ave	
+Operator	operate 
+Agency	
+equal	
+Username	
+pUsername	
+peratoreAgenzia	agency 
+OperatoreAGenzia	operator agency 
+there	
+operator	operate 
+Additional	
+popera	
+pIdOperatore	id operator 
+Operation	
+plate	
+pPiatti	
+flat	
+inserted	insert 
+dish	
+pIdPiatto	id plate 
+eliminre	
+dishes	dish 
+modificaPiatto	modify plate 
+preference	
+Search	search 
+pPreferenza	preference 
+eliminate	delete 
+find	
+General	
+Edit	update 
+een	
+pIdPreferenza	id preference 
+generic	
+pPuntoDiRistoro	point of refreshment 
+edit	update 
+comfort	
+Advanced	advance 
+eateries	restaurant 
+sorted	
+Preferences	preference 
+Max.The	
+scroll	
+Use	
+pNumeroPagina	number page 
+According	
+distance.The	
+Points	point 
+contain	
+May	
+ptagi	
+tag	
+pIdTag	id tag 
+single	
+immovable	
+pIdBeneCulturale	id good cultural 
+Tourist	
+pTurista	tourist 
+Identificatie	
+Attach	
+turned	
+pact	
+select	
+True	
+those	
+off	
+favorites	favorite 
+Heritage	
+resting	rest 
+favorite	
+spot	
+particular	
+Favorites	favorite 
+Inserts	insert 
+Visit	
+PVIS	
+insert	insert 
+Extract	
+visits	visit 
+visited	visit 
+feedback	feedback 
+issued	issue 
+Specified	
+ottieniVisitaBC	get visit culturale 
+at	
+system	
+pBannerID	banner 
+operation	
+successful	
+associated	associate 
+image	
+pPuntoDiRistoroID	point of refreshment 
+owner	
+IGestioneAdvetisementAgenzia	management agency 
+inserts	insert 
+removes	remove 
+pNewsID	news 
+amending	amend 
+text	
+insertion	insert 
+pBeneCulturale	good cultural 
+raw	
+cancellation	cancel 
+pBeneCulturaleID	good cultural 
+beans	
+setting	set 
+certain	
+pTagID	tag 
+indicated	
+updating	update 
+aggiungiTagBeneCulturale	add tag good cultural 
+rimuoviTagBeneCulturale	remove tag good cultural 
+required	
+where	
+array	
+corresponding	
+value	
+calculation	calculate 
+ade	
+period	
+days	
+statistics	
+thirty	
+last	last 
+inserting	insert 
+deleting	
+bar	
+unique	
+DataBase	date 
+Active	active 
+statoConvenzione	state convention 
+key	
+how	
+allows	allow 
+useful	
+pPuntoDiRistoroId	point of refreshment id 
+pTagId	tag id 
+successfully	
+went	
+otherwise	
+contracted	
+ottieniPuntiDiRistoro	get point of refreshment 
+enable	
+Parameter	
+attivaConvenzione	active convention 
+ottieniFeedbackPuntoDiRistoro	get feedback point of refreshment 
+inserisciTagPuntoDiRistoro	insert tag point of refreshment 
+some	
+structure	
+made	make 
+comments	
+rest	
+Array	
+strings	string 
+Location	
+ratings	rate 
+Index	
+ne.The	
+counters	counter 
+explained	
+modificaFeedbackPuntoDiRistoro	modify feedback point of refreshment 
+IGestioneTagOperatoreAgenzia	management tag operator agency 
+pTagNuovo	tag new 
+existing	exist 
+editing	edit 
+pTagModificato	tag modify 
+details	detail 
+identified	identify 
+concerned	
+IGestioneTuristaClient	management tourist 
+IGestioneTuristaComune	management tourist common 
+container	contain 
+relating	relate 
+tourism	tourist 
+including	
+Identifier	
+Turista	tourist 
+pPreferenzeGeneriche	preference general 
+extraction	extract 
+generously	
+changing	change 
+whom	
+Change	update 
+pPreferenzeGenericheNuove	preference general 
+Prefereferze	
+pPreferenzeGenericheVecchie	preference general 
+generous	
+MADIF	
+removal	remove 
+Insert	insert 
+pPreferenzaDiRicerca	preference of search 
+extracting	extract 
+set	set 
+when	
+making	
+Visited	visit 
+references	
+item	
+added	
+extract	
+IGestioneTuristiAgenzia	management tourist agency 
+Database	
+activate	
+disable	
+collection	
+statoAccount	state 
+can	
+whether	
+On	
+points	point 
+pick	
+up	
+unisa.gps.etour.control.GestioneRicerche	management 
+IRicerca	search 
+Constants	constant 
+sitepublic	
+BENE_CULTURALE	
+PUNTO_DI_RISTORO	
+Initialization	
+Together	
+pParoleChiave	
+searchTogether	search 
+pTagsId	tag id 
+pRaggioMax	radius 
+between	
+numeroElementiPerPagina	number element page 
+items	
+look	
+session	session 
+detected	
+pPosizioneUtente	position user 
+GPS	
+pTipologiaSito	type site 
+site	
+emerged	
+error	error 
+research.On	
+exception	
+remote	
+returning	return 
+emerging	emerge 
+interval	
+range	
+pPagina	page 
+results	result 
+entirety	
+related	relate 
+Selected	select 
+Research	
+intevallo	interval 
+specific	
+phase	
+Where	
+initialized	
+pages	page 
+int[]	
+ottieniPaginaRisultatiBeneCulturale	get page good cultural 
+ottieniPaginaRisultatiPuntoDiRistoro	get page point of refreshment 
+ottieniNumeroPagineRicerca	get number search 
+unisa.gps.etour.gui.operatoreagenzia.documents	
+LimitedDocument	limit 
+PlainDocument	
+maxLength	
+insertString	insert string 
+AttributeSet	set 
+BadLocationException	exception 
+mayelse	
+what	
+MediaVotiRenderer	vote 
+DefaultTableCellRenderer	
+custom	
+average	
+Display	
+contained	
+cell	
+pTable	
+pValue	
+pSelected	select 
+pHasFocus	
+has	
+pRow	
+pColumn	
+column	
+customizes	
+render	
+rendered	
+Be	
+getTableCellRendererComponent	search 
+MessaggiErrore	message error 
+Occurs	
+connecting	
+DBMSpublic	
+ERRORE_CONNESSIONE_DBMS	
+ERRORE_DBMS	
+Unknown	
+Error	error 
+ERRORE_DATI	
+occurs	
+filespublic	
+write	
+ERRORE_FILE	
+reached	
+ERRORE_NUM_BANNER	
+btnEliminaN	delete 
+formNews	news 
+JSlider	
+btnInsertModify	insert update 
+btnReset	
+panelHelp	
+scrollTableNews	news 
+tableNews	news 
+testoNews	text news 
+JTextArea	
+durataNews	news 
+JComboBox	combo 
+btnModificaN	modify 
+labelCaratteri	character 
+idNews	id news 
+NewsTableModel	news 
+Right	
+right	
+getJContentPane	search 
+getBtnModificaN	search modify 
+getFormNews	search news 
+getBtnInsertModify	search insert update 
+getPanelHelp	search 
+unisa.gps.etour.gui.operatoreagenzia.tables.test	
+NewsTableModelTest	news 
+TestCase	
+setUp	set 
+testCostruttoreConArrayList	
+testCostruttoreConArrayListNull	
+testCostruttoreConArrayListVuoto	
+testGetValueAtParametriCorretti	get 
+testGetValueAtRigaSballata	get 
+testGetValueAtColonnaSballata	get 
+testInsertNewsParametroCorretto	insert news parameter 
+testInsertNewsParametroNull	insert news parameter 
+testUpdateNewsParametroCorretto	update news parameter 
+testUpdateNewsParametroNull	update news parameter 
+testRemoveNewsParametroCorretto	delete news parameter 
+testRemoveNewsRigaSballata	delete news 
+OperatoreAgenzia	operator agency 
+Last	last 
+DoB	do 
+setCittàResidenza	set residence 
+getCittàResidenza	search residence 
+setIndirizzo	set address 
+getIndirizzo	search address 
+PrioritaRenderer	priority 
+TableCellRenderer	
+renderer	
+priorities	priority 
+PuntiDiRistoro	point of refreshment 
+SIZE	
+RightPanel	
+status	
+CentrePanel	
+btnSkeda	
+btnModifica	modify 
+HelpPanel	
+jTextPane	
+PannelloTag	tag 
+btnRicerca2	
+btnAzzera2	
+RicercaPanel	search 
+LabelPr	ristoro 
+LabelTag	tag 
+TablePr	ristoro 
+btnAttiva	active 
+btnStorico	history 
+xxx	
+initialize	
+getBtnSkeda	search 
+getBtnModifica	search modify 
+getBtnElimina	search delete 
+getJScrollPane	search 
+Radius	
+earthfinal	
+EARTH_RADIUS	
+latitude	
+longitude	
+altitude	
+getLatitudine	search latitude 
+setLatitudine	set latitude 
+getLongitudine	search longitude 
+setLongitudine	set longitude 
+getAltitudine	search altitude 
+setAltitudine	set altitude 
+gradiRadianti	degree radiant 
+Punto3DRenderer	
+Objects	object 
+reportStatistici	statistics 
+centralPanel	
+tabellas	
+southPanel	
+JTabbedPane	
+guidainlinea	
+genStat	
+evdStat	
+stat	
+jButton1	
+jButton2	
+jLabel1	
+jLabel2	
+jLabel3	
+jLabel4	
+jLabel5	
+jLabel6	
+jLabel7	
+jLabel8	
+jLabel9	
+jPanel1	
+jLabel10	
+jLabel11	
+jLabel12	
+jLabel13	
+jLabel14	
+jLabel15	
+jLabel16	
+jLabel17	
+jLabel18	
+jLabel19	
+jLabel20	
+jLabel21	
+jLabel22	
+btnVisualizza	view 
+getJComboBox	search combo 
+caricaCombo	combo 
+getStat	search 
+getJPanel	search 
+getJButton	search 
+getJButton1	search 
+getJButton2	search 
+getJPanel1	search 
+getBtnVisualizza	search view 
+ReportTableModel	
+pElementiPerPagina	element page 
+connectionPrivate	connection 
+obtainedprivate	
+Results	result 
+partitionedprivate	
+risultatiRicercaPuntiDiRistoro	search point of refreshment 
+Quantity	
+phaseprivate	
+numeroPagineRisultati	number 
+numeroElementiRicerca	number element search 
+parametersTRY	parameter 
+resultsif	
+ottieniNumeroElementiRicercaSpecializzato	get number element search 
+ricercaPerPagina	search page 
+calcolaNumeroPagineRicerca	number search 
+calcolaNumeroElementiPagina	number element page 
+formif	
+pageelsereturn	
+per	
+controllaPagina	check page 
+controllaIdTurista	check id tourist 
+azzeraParametri	
+arrayToArrayListTag	to tag 
+tagsif	
+listfor	
+RicercaAvanzata	search advance 
+RicercaClasse	search 
+managing	manage 
+SearchBENE_CULTURALE	search 
+PUNTO_DI_RISTORORicercaAvanzata	search advance 
+constructorottieniNumeroElementiRicerca	number element search 
+searchGestioneRicerche	search management 
+RicercaRicercaAvanzatapublic	search search 
+RicercaStandard	search 
+ricercaSpecializzataPerPagina	search page 
+models	model 
+txts	
+JToggleButton	
+btnSalva	
+btnAnnulla	cancel 
+btnModificaCommento	modify comment 
+address2	
+Address1	
+cittaBC	city culturale 
+localitaBC	location culturale 
+capBC	
+posGeoX	
+descrizioneBC	description culturale 
+telefonoBC	telephone culturale 
+oreAP	
+minAP	
+costoBC	cost culturale 
+Oreca	
+mince	
+provBC	
+datiBC	data culturale 
+scrollPaneFeedback	feedback 
+tableFeedback	feedback 
+txtNomeBene	name good 
+mediaVotoBC	vote 
+statMeseCorrente	month 
+statTotali	
+posGeoY	
+posGeoZ	
+suggestions	
+statMeseC	month 
+JLabel[]	
+statt	
+gestioneBC	management culturale 
+idTag	id tag 
+manufacturer	
+modification	modify 
+regarding	
+tab	
+pbc	
+pModifica	modify 
+then	
+amend	update 
+viewing	view 
+makes	
+editable	
+form	
+SchedaBC	card culturale 
+internalFrameClosing	close 
+initializeSchedaBC	card 
+stateChanged	
+ChangeEvent	update 
+culturalif	
+receivedelse	
+caricaDatiForm	data 
+caricaStatistiche	statistics 
+mostraNascondiSuggerimenti	
+suggerimenti.iterator	
+s.next	
+attivaDisattivaEdit	active disable update 
+getBtnSalva	search 
+well	
+getBtnAnnulla	search cancel 
+getBtnModificaCommento	search modify comment 
+getDatiBCForm	search data 
+Tipsfor	
+Creation	create 
+txtNome	name 
+txtIndirizzo	address 
+txtCAP	
+txtCitta	city 
+txtLocalità	
+txtProvincia	province 
+txtPos	
+txtTel	
+txtOraAp	
+txtOraCh	
+indirizzoPR	address ristoro 
+indirizzoPR1	address 
+cittaPR	city ristoro 
+localitaPR	location ristoro 
+capPR	
+descrizionePR	description ristoro 
+telefonoPR	telephone ristoro 
+orarioAPOrePR	schedule 
+orarioApMinPR	schedule 
+orarioCHMinPR	schedule 
+provPR	
+datiPR	data ristoro 
+jScrollPane2	
+feedbackTable	feedback 
+mediaVotoPR	vote 
+statisticheMeseCorrente	statistics month 
+statisticheTotali	statistics 
+jLabel41	
+campoCompilato	
+ActionListener	
+FocusListener	
+orarioCHOrePR	schedule 
+Color	
+ERROR_BACKGROUND	
+WARNING_BACKGROUND	
+board	
+unisa.gps.etour.bean.BeanPuntoDiRistoro	bean point of refreshment 
+PuntoDiRistoro	point of refreshment 
+indicates	
+You	
+card	
+limit	
+SchedaPR	card ristoro 
+focusGained	
+FocusEvent	
+focusLost	
+makeEditabled	
+button	
+Save	
+Cancel	delete 
+getJTabbedPane	search 
+getIndirizzoPR	search address ristoro 
+getIndirizzoPR1	search address 
+getCittaPR	search city ristoro 
+getLocalitaPR	search location ristoro 
+getCapPR	search 
+getTelefonoPR	search telephone ristoro 
+hours	
+getOrarioAPOrePR	search schedule 
+minutes	
+getOrarioApMinPR	search schedule 
+getOrarioCHMinPR	search schedule 
+provinces	
+getProvPR	search 
+DocumentoNumerico	document 
+snack	
+getNomePR	search name ristoro 
+toolbarscheda	
+btnReimposta	
+ch	
+datiTurista	data tourist 
+month	
+years	
+luogoNascita	location born 
+JPasswordField	password 
+From	
+unisa	
+pParent	
+window	
+amendments	
+profile	
+Public	
+getToolbarscheda	search 
+getBtnReimposta	search 
+getDatiTuristaForm	search data tourist 
+ScrollableTable	scroll 
+Scrollable	scroll 
+maxUnitIncrement	
+getScrollableUnitIncrement	search scroll 
+Rectangle	
+getScrollableBlockIncrement	search scroll 
+getScrollableTracksViewportWidth	search scroll 
+getScrollableTracksViewportHeight	search scroll 
+columnNames	
+cells	
+Object[][]	
+posizioneSito	position site 
+myLocation	
+CenterPanel	
+EastPanel	
+btnExit	
+jPanelUp	
+jPanelHelp	
+tagname	
+btnOK	
+btnResetta	
+getCenterPanel	search 
+getEastPanel	search 
+getJTable	search 
+getBtnExit	search 
+getJPanelUp	search 
+getJPanelHelp	search 
+getJTextPane	search 
+getJTextField	search 
+getJTextArea	search 
+getBtnOk	search 
+getBtnResetta	search 
+TagTableModel	tag 
+TAGTableModel	
+BeanTag[]	bean 
+TestoNewsRendererTest	text news 
+TestoNewsRenderer	text news 
+aTable	
+testGetTableCellRendererParametriCorretti	get 
+testGetTabelCellRendererNoNewsModel	get news 
+testGetTableCellRendererParametroNull	get parameter 
+testGetTableCellRendererTipoInatteso	get type 
+btnModificaDati	modify data 
+scrollTableTuristi	tourist 
+tableTuristi	tourist 
+cognomeTurista	name tourist 
+btnVisualizzaScheda	view card 
+TuristiTableModel	tourist 
+getBtnAttiva	search active 
+Birth	
+decommissioning	
+activation	
+getBtnModificaDati	search modify data 
+getBtnVisualizzaScheda	search view card 
+getScrollTableTuristi	search tourist 
+AttivazioneTuristaRenderer	tourist 
+getSearchPanel	search search 
+template	
+No	

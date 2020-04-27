@@ -1,0 +1,15 @@
+Case name: Edit EMail Citizen
+Participating actors: Started by Citizen
+Flow of events:
+1. The citizen accesses the e-mail modification form.
+2. The system shows the form the insertion of the new e-mail.
+3. The citizen inserts the new email and presses the confirmation button.
+4. The system updates the new e-mail.
+Entry condition:
+The citizen is authenticated in the system.
+Exit conditions:
+The system saves the new e-mail.
+The system detects an error and recalls the use case data, OR
+In case the service is not available the use case is recalled Service Not Available.
+Quality requirements:
+Not expected.

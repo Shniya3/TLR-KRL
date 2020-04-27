@@ -1,0 +1,24 @@
+<Class>
+    <Id>27</Id>
+    <Package>Servlet</Package>
+    <ClassName>ServletCaricaPratica</ClassName>
+    <SuperClass>HttpServlet</SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface></SuperInterface>
+    </SuperInterfaceList>
+    <FieldList/>
+    <MethodList>
+        <Method>
+            <MethodName>doGet</MethodName>
+            <ReturnType>void</ReturnType>
+            <ParameterList>
+                <ParameterType>HttpServletRequest</ParameterType>
+                <ParameterType>HttpServletResponse</ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType>ServletException</ExceptionType>
+                <ExceptionType>IOException</ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+    </MethodList>
+</Class>

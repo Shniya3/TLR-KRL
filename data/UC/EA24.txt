@@ -1,0 +1,17 @@
+Case name: Search Employee
+Participating actors: Started by administrator
+Flow of events:
+1. The administrator presses the button Search employee.
+2. The system shows the form to search for an employee.
+3. The administrator performs a search using the data of the employee.
+4. The system returns the data of the wanted employee.
+Entry condition:
+The administrator has authenticated himself in the system.
+Exit conditions:
+The system displays the employee screen, OR
+In case the employee is not found the system recalls the use case Data, OR
+In the event that the administrator wants to delete an employee, the system calls the incident case Clear Employee, OR
+In the case in which the administrator wants to modify an employee, the system calls the case of use Edit employee, OR
+If the service is not available, the use case is called up Service Not Available.
+Quality requirements:
+The serial number string e8 in the system contains only numeric characters and is 6 characters long.

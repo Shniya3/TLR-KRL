@@ -1,0 +1,16 @@
+Case name: CancellationCitizen
+Participating actors: Started as an employee
+Flow of events: 
+1. The employee presses the citizen cancellation button.
+2. The system asks the employee for confirmation.
+3. The employee confirms the operation.
+4. The system cancels the citizen.
+Entry condition: 
+The employee is authenticated in the system.
+(This use case includes Research Citizen) and occurs when the employee wants to cancel a citizen
+Exit conditions: 
+The employee does not confirm the operation, OR
+The system cancels the citizen, OR
+The case is called if the service is not available. Service Not Available
+Quality requirements:
+Not expected

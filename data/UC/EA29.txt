@@ -1,0 +1,15 @@
+Case name: EditPractice
+Participating actors: Initiated by a citizen
+Flow of events:
+1. The citizen presses the practice modification button (identity card, change residence) if the case has not been initialized.
+2. The system shows a form for editing the file.
+3. The citizen enters the data.
+4. The system saves the changes made.
+Entry condition:
+The citizen is authenticated in the system.
+(This case extends VisualizzaPratica) and occurs when the citizen wants to change the practice.
+Exit conditions:
+The system modifies the practice, OR
+The case is called if the service is not available. Service Not Available.
+Quality requirements:
+Not expected.

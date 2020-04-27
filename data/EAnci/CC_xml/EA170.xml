@@ -1,0 +1,33 @@
+<Class>
+    <Id>30</Id>
+    <Package>Servlet</Package>
+    <ClassName>ServletCreaPdfCittadino</ClassName>
+    <SuperClass>HttpServlet</SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface></SuperInterface>
+    </SuperInterfaceList>
+    <FieldList>
+        <Field>
+            <FieldName>serialVersionUID</FieldName>
+            <FieldType>long</FieldType>
+        </Field>
+        <Field>
+            <FieldName>session</FieldName>
+            <FieldType>HttpSession</FieldType>
+        </Field>
+    </FieldList>
+    <MethodList>
+        <Method>
+            <MethodName>doPost</MethodName>
+            <ReturnType>void</ReturnType>
+            <ParameterList>
+                <ParameterType>HttpServletRequest</ParameterType>
+                <ParameterType>HttpServletResponse</ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType>ServletException</ExceptionType>
+                <ExceptionType>IOException</ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+    </MethodList>
+</Class>

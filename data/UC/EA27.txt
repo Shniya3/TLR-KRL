@@ -1,0 +1,14 @@
+Case name: ExchangeStateFamily
+Participating actors: Started by Citizen, continued by Employee
+Flow of events: 
+1. The Citizen presses the Change family status button.
+2. The system shows the citizen the form to fill out.
+3. The citizen enters the data of the new family unit and sends the request.
+4. The system sends the request to the competent employee.
+Entry condition:
+The Citizen is authenticated in the system.
+Exit conditions:
+The System creates the document to be delivered to the competent office, OR
+In case the service is not available the use case is recalled Service Not Available.
+Quality requirements:
+Not expected.

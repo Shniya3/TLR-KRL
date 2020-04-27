@@ -1,0 +1,15 @@
+Case name: Edit EMail Administrator
+Participating actors: Started by administrator
+Flow of events:
+1. The administrator accesses the e-mail modification form.
+2. The system shows the form the insertion of the new e-mail.
+3. The administrator enters the new email and presses the confirmation button.
+4. The system updates the new e-mail.
+Entry condition:
+The administrator has authenticated himself in the system.
+Exit conditions:
+The system saves the new e-mail.
+The system detects an error and recalls the use case data OR
+In case the service is not available the use case is recalled Service Not Available.
+Quality requirements:
+Not expected.

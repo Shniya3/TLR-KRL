@@ -1,0 +1,11 @@
+contain	0
+super_class	1
+super_interface	2
+field	3
+field_type	4
+method	5
+throw_exception	6
+return_type	7
+parameter	8
+oracle_link	9
+uc2uc_link	10

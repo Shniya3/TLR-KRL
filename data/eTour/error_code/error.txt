@@ -1,0 +1,14 @@
+GestionePuntiDiRistoroComune.txt
+GestioneTagComune.txt
+IAutenticazione.txt
+IGestioneAdvertisement.txt
+IGestioneAdvertisementPuntoDiRistoro.txt
+IGestioneBeniCulturaliAgenzia.txt
+IGestioneBeniCulturaliComune.txt
+IGestionePuntiDiRistoroAgenzia.txt
+IGestionePuntiDiRistoroComune.txt
+IGestioneTagComune.txt
+IRicerca.txt
+LimitedDocument.txt
+Punto3D.txt
+SitoTableModel.txt

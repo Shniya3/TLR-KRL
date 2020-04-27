@@ -1,0 +1,15 @@
+Case name: EditCittadino
+Participating actors: Started as an employee
+Flow of events: 
+1. The employee presses the city modification button.
+2. The system shows a form for modifying the citizen.
+3. The employee enters the data. 
+4. The system saves the changes made.
+Entry condition:
+The employee is authenticated in the system.
+(This case of use includes Research Citizen) and occurs when the employee wants to change a citizen
+Exit conditions:
+The system modifies the citizen, OR
+The case is called if the service is not available. Service Not Available.
+Quality requirements:
+Not expected.

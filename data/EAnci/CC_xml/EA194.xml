@@ -1,0 +1,29 @@
+<Class>
+    <Id>54</Id>
+    <Package>Servlet</Package>
+    <ClassName>ServletVisualizzaPratiche</ClassName>
+    <SuperClass>HttpServlet</SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface></SuperInterface>
+    </SuperInterfaceList>
+    <FieldList>
+        <Field>
+            <FieldName>serialVersionUID</FieldName>
+            <FieldType>long</FieldType>
+        </Field>
+    </FieldList>
+    <MethodList>
+        <Method>
+            <MethodName>doGet</MethodName>
+            <ReturnType>void</ReturnType>
+            <ParameterList>
+                <ParameterType>HttpServletRequest</ParameterType>
+                <ParameterType>HttpServletResponse</ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType>ServletException</ExceptionType>
+                <ExceptionType>IOException</ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+    </MethodList>
+</Class>

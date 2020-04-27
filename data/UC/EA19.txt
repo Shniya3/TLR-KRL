@@ -1,0 +1,16 @@
+Case name: RecoverPasswordCitizen
+Participating actors: Started by Citizen
+Flow of events:
+1. The citizen has forgotten the password and presses the Recover Password button.
+2. The system shows the password recovery screen which requires the user name and the identity card code e0 to be entered.
+3. The citizen enters his data and presses the confirmation button.
+4. The system verifies the correctness of the data and sends the password to the citizen's email address.
+Entry condition:
+The citizen is authenticated in the system.
+Exit conditions:
+The system has sent the password, OR
+In the event that the administrator enters a serial number not present in the system, the system calls the case data, OR
+In case the service is not available the use case is recalled Service Not Available.
+Quality requirements:
+The username string in the system is associated with the owner of the identity card e0, well formed e8 contains characters [a..zA..Z0..9.-_] and has a length less than 30 characters and not e8 empty.
+Identity Card string e0 e8 present in the system, e8 formed by XXnnnnnnn (X = letter n = number) and has a length equal to 9 characters.

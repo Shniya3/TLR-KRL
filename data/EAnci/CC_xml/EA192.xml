@@ -1,0 +1,24 @@
+<Class>
+    <Id>52</Id>
+    <Package>Servlet</Package>
+    <ClassName>ServletRisposta</ClassName>
+    <SuperClass>HttpServlet</SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface></SuperInterface>
+    </SuperInterfaceList>
+    <FieldList/>
+    <MethodList>
+        <Method>
+            <MethodName>doPost</MethodName>
+            <ReturnType>void</ReturnType>
+            <ParameterList>
+                <ParameterType>HttpServletRequest</ParameterType>
+                <ParameterType>HttpServletResponse</ParameterType>
+            </ParameterList>
+            <ThrowExceptionList>
+                <ExceptionType>IOException</ExceptionType>
+                <ExceptionType>ServletException</ExceptionType>
+            </ThrowExceptionList>
+        </Method>
+    </MethodList>
+</Class>

@@ -1,0 +1,15 @@
+Case name: Ticket request
+Participating actors: Started by Citizen, continued as a clerk
+Flow of events:
+1. The Citizen presses the Electoral Card button.
+2. The system shows the form to request the card.
+3. The citizen confirms the operation 
+4. The system sends a notification clerk. 
+5. The citizen will receive the electoral card will be delivered to your home.
+Entry condition:
+Citizen must be authenticated in the system. The electoral card has not been sent.
+Exit conditions:
+The system alerts the employee, OR
+The case is called if the service is not available. Service Not Available.
+Quality requirements:
+Not expected.

@@ -1,0 +1,11 @@
+<Class>
+    <Id>80</Id>
+    <Package>unisa.gps.etour.control.GestioneAdvertisement</Package>
+    <ClassName>IGestioneAdvertisementPuntoDiRistoro</ClassName>
+    <SuperClass></SuperClass>
+    <SuperInterfaceList>
+        <SuperInterface>IGestioneAdvertisement</SuperInterface>
+    </SuperInterfaceList>
+    <FieldList/>
+    <MethodList/>
+</Class>

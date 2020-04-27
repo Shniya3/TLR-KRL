@@ -1,0 +1,16 @@
+Case name: Authentication Employee
+Participating actors: Started as an employee
+Flow of events: 
+1. The employee accesses the authentication session.
+2. The system shows the login form for data entry (username and password).
+3. The employee inserts the data and submits the authentication request.
+4. The system verifies the accuracy of the data and allows access to the employee.
+Entry condition: 
+The employee had access to the system
+Exit conditions: 
+The employee has successfully logged in, OR
+If the employee enters the wrong login and / or password, the system calls the case Data, OR
+If the service is not available, the use case is called up Service Not Available.
+Quality requirements: 
+The string of the username e8 present in the system, well formed e8 contains characters [a..zA..Z0..9.-_] and a length less than 30 characters and not e8 empty.
+The password string e8 present in the system, well formed e8 contains characters [a..zA..Z0..9.-_ * +!?,:; e0 e8 e9 ec ecf2 f9] and has a length between 8 and 15 characters.

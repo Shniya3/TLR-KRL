@@ -1,0 +1,274 @@
+Manager	manager 
+AccessManager	access manager 
+dbAccesso	database access 
+DbAccesso	database access 
+controllaAccesso	check access 
+boolean	boolean 
+String	string 
+DbException	database exception 
+controllaLogin	check login 
+getAccesso	search access 
+Accesso	access 
+modificaAccesso	modify access 
+inserisciAccesso	insert access 
+eliminaAccesso	delete access 
+getAccessi	search access 
+Bean	bean 
+Login	login 
+Password	password 
+Tipo	type 
+getLogin	search login 
+setLogin	set login 
+void	void 
+getPassword	search password 
+setPassword	set password 
+getTipo	search type 
+setTipo	set type 
+toString	to string 
+AdminManager	admin manager 
+dbAmministratore	database administrator 
+DbAmministratore	database administrator 
+modificaAdmin	modify admin 
+Amministratore	administrator 
+ricercaAdminByMatricola	search admin by matrix 
+inserisciAdmin	insert admin 
+eliminaAmministratore	delete administrator 
+getAmministratoreByLogin	search administrator by login 
+getAmministratoreByName	search administrator by name 
+getAmministratori	search administrator 
+Nome	name 
+Cognome	surname 
+Matricola	matrix 
+Email	email 
+getNome	search name 
+setNome	set name 
+getCognome	search surname 
+setCognome	set surname 
+getMatricola	search matrix 
+setMatricola	set matrix 
+getEmail	search email 
+setEmail	set email 
+CartaIdentita	letter identity 
+Numero	number 
+idCittadino	id citizen 
+int	int 
+Cittadinanza	citizenship 
+Residenza	residence 
+Via	via 
+StatoCivile	state civil 
+Professione	profession 
+Statura	status 
+double	double 
+Capelli	hair 
+Occhi	eyes 
+SegniParticolari	sign particular 
+DataRilascio	date release 
+Date	date 
+DataScadenza	date expiry 
+ValidaEspatrio	valid espatrio 
+num_civico	number civic 
+CIManager	manager our 
+dbCartaIdentita	database letter identity 
+DbCartaIdentita	database letter identity 
+getCartaByNumero	search letter by number 
+getCartaByIdCStri	search letter by id string 
+Cittadino	citizen 
+ci	our 
+CodiceFiscale	code tax 
+DataNascita	date born 
+LuogoNascita	place born 
+Advertise	advertising 
+nucleoFamiliare	core family 
+CittadinoManager	citizen manager 
+dbCittadino	database citizen 
+DbCittadino	database citizen 
+getCittadinoByLogin	search citizen by login 
+modificaLogin	modify login 
+modificaEmail	modify email 
+inserisciCittadino	insert citizen 
+ricercaCittadino	search citizen 
+cancellaCittadino	cancel citizen 
+getCittadinoById	search citizen by id 
+modificaNucleoFamiliare	modify core family 
+modificaNome	modify name 
+modificaCognome	modify surname 
+Comune	common 
+nome	name 
+indirizzoIp	address ip 
+getIndirizzoId	search address id 
+setIndirizzoId	set address id 
+Servlet	servet 
+ControllerFiles	check file 
+HttpServlet	http servet 
+doPost	do post 
+HttpServletRequest	http servet request 
+HttpServletResponse	http servet response 
+ServletException	servet exception 
+IOException	exception 
+DB	database
+connection	connection 
+Connection	connection 
+inserisciAmministratore	insert administrator 
+getAmministratoreByMatricola	search administrator by matrix 
+modificaAmministratore	modify administrator 
+DbCambioResidenza	database change residence 
+changeResidence	update residence 
+changeResidenceIn	update residence in 
+ricercaCartaIdentitaByNumero	search letter identity by number 
+cancellaCartaIdentita	cancel letter identity 
+registraCartaIdentita	register letter identity 
+modificaViaCartaIdentita	modify via letter identity 
+modificaNumeroCivicoCartaIdentita	modify number civic letter identity 
+modificaResidenzaCartaIdentita	modify residence letter identity 
+modificaDataRilascioCartaIdentita	modify date release letter identity 
+java.util.Date	date 
+modificaDataScadenzaCartaIdentita	modify date expiry letter identity 
+modificaValidaEspatrio	modify valid espatrio 
+ricercaCartaIdentitaByProprietario	search letter identity by owner 
+registraCittadino	register citizen 
+modificaNomeCittadino	modify name citizen 
+modificaCognomeCittadino	modify surname citizen 
+modificaCodiceFiscaleCittadino	modify code tax citizen 
+modificaEmailCittadino	modify email citizen 
+modificaAdvertise	modify advertising 
+getCittadinoByCodice	search citizen by code 
+getCittadinoByName	search citizen by name 
+DbComune	database common 
+inserisciComune	insert common 
+eliminaComune	delete common 
+getComuneByName	search common by name 
+DbConnection	database connection 
+dbProperties	database property 
+Properties	property 
+cpds	cpd 
+ComboPooledDataSource	combo pool date source 
+createPool	create pool 
+SQLException	exception sql 
+PropertyVetoException	property veto exception 
+getConnection	search connection 
+loadDbProperties	load database property 
+closePool	close pool 
+RuntimeException	round exception 
+serialVersionUID	series version 
+long	long 
+DbImpiegato	database employee 
+inserisciImpiegato	insert employee 
+Impiegato	employee 
+eliminaImpiegato	delete employee 
+getImpiegatoByName	search employee by name 
+getImpiegatoByMatricola	search employee by matrix 
+getImpiegati	search employee 
+getImpiegatoByLogin	search employee by login 
+modificaImpiegato	modify employee 
+DbNucleoFamiliare	database core family 
+inserisciNucleoFamiliare	insert core family 
+NucleoFamiliare	core family 
+eliminaNucleoFamiliare	delete core family 
+getStatoFamiglia	search state family 
+controllaIdFamiglia	check id family 
+noteFamiglia	note family 
+setCapoFamiglia	set chief family 
+getNucleoFamiliareById	search core family by id 
+lastId	last id 
+setnComponenti	see components 
+DbRichiesta	database request 
+inserisciRichiesta	insert request 
+Richiesta	request 
+eliminaRichiesta	delete request 
+getRichiestaById	search request by id 
+getRichiestaByRichiedente	search request by applicant 
+getRichiestaByStato	search request by state 
+getRichiestaByTipo	search request by type 
+setStatoRichiesta	set state request 
+getRichieste	search request 
+ImpiegatoManager	employee manager 
+dbImpiegato	database employee 
+ricercaImpiegatoByMatricola	search employee by matrix 
+idNucleoFamiliare	id core family 
+capoFamiglia	chief family 
+nota	note 
+nComponenti	components 
+getIdNucleoFamiliare	search id core family 
+setIdNucleoFamiliare	set id core family 
+getCapoFamiglia	search chief family 
+getNote	search note 
+setNote	set note 
+getNComponenti	search components 
+setNComponenti	set components 
+NucleoFamiliareManager	core family manager 
+nucleoF	core 
+inserisciNucleo	insert core 
+controllaidFamiglia	check family 
+getNComponentiNucleo	search components core 
+incrementaComponenti	increase components 
+decrementaComponenti	decrease components 
+getNucleo	search core 
+idRichiesta	id request 
+tipo	type 
+data	date 
+richiedente	applicant
+stato	state 
+documento	document 
+getIdRichiesta	search id request 
+setIdRichiesta	set id request 
+getData	search date 
+setData	set date 
+getRichiedente	search applicant 
+setRichiedente	set applicant 
+getStato	search state 
+setStato	set state 
+getDocumento	search document 
+setDocumento	set document 
+isAccettata	is accept 
+isRifiutata	is rejected 
+ServletAnnulla	servet cancel 
+doGet	do get 
+ServletCaricaPratica	servet load practice 
+ServletCreaPdfCambioAbitazione	servet create pdf change accommodation 
+session	session 
+HttpSession	http session 
+ServletCreaPdfCertificati	servet create pdf certificate 
+ServletCreaPdfCittadino	servet create pdf citizen 
+ServletEliminaAmministratore	servet delete administrator 
+ServletEliminaCittadino	servet delete citizen 
+ServletEliminaImpiegato	servet delete employee 
+ServletInserisciAmministratore	servet insert administrator 
+cognome	surname 
+email	email 
+matricola	matrix 
+login	login 
+password	password 
+ServletInserisciCittadino	servet insert citizen 
+cf	compare 
+giorno	day 
+mese	month 
+anno	year 
+dataN	date 
+luogoN	location 
+advertise	warnings 
+idNF	id 
+cittadino	citizen 
+NFM	nfm
+ServletInserisciImpiegato	servet insert employee 
+ServletLogin	servet login 
+ServletLogout	servet logout 
+ServletModificaAccesso	servet modify access 
+cpassword	password 
+ServletModificaAmministratore	servet modify administrator 
+ServletModificaCittadino	servet modify citizen 
+CM	cm
+ServletModificaImpiegato	servet modify employee 
+CercaFiles	search file 
+init	init 
+ServletConfig	servet config 
+ServletMostraAccesso	servet show access 
+ServletMostraAccessoA	servet show access 
+ServletRecuperoPassword	servet recovery password 
+ServletRegistraCittadino	servet register citizen 
+ServletRicercaAmministratore	servet search administrator 
+ServletRicercaCittadino	servet search citizen 
+ServletRicercaImpiegato	servet search employee 
+ServletRicercaPratica	servet search practice 
+ServletRisposta	servet answer 
+ServletStatoDiFamiglia	servet state of family 
+ServletVisualizzaPratiche	servet view practice 

@@ -1,0 +1,274 @@
+AccessManager	25	the accessmanager class interacts with the database management classes the accessmanager class does not have federal author dependencies five manufacturers of the accessmanager class default 
+controllaAccesso	104	method that allows you to check the correctness of the login and password of an access by invoking the relative method of class db param login string that is used as login param password string that is used as password return true if the access is present , false otherwise throws dbexception method that allows you to check the correctness of the login and password of an access to ensure the opening of an authenticated session param login string that is used as login param password string that is used as password return true if the access is present , false otherwise throws dbexception 
+controllaLogin	70	method that allows you to control the existence of the login by invoking the relative method of class db param login string that is used as login return true if the login is present , false otherwise throws dbexception method that allows you to control the existence of the login param login string that is used as login return true if the login is present , false otherwise throws dbexception 
+getAccesso	52	method that returns an access by invoking the relative method of class db param login string that is used as login return returns an object of access type throws dbexception method that returns an access param log string that is used as login return returns an object of access type throws dbexception 
+inserisciAccesso	58	method entering an access within the db by invoking the related class db param ac method of true return access type if an entry into db has been made , false otherwise throws dbexception method inserting an access within the db param to true return access type if made an insertion in db , false otherwise throws dbexception 
+eliminaAccesso	71	method that eliminates an access from the db by invoking the relative method of the class db param login string that is used as true login return if a cancellation has been made in the db , false otherwise throws dbexception method that deletes an access from db param log string that is used as true login return if a deletion has been made in db , false otherwise throws dbexception 
+getAccessi	33	method that returns all stored entries invoking the related class db return method returns a throws dbexception access collection method that returns all stored returns returns returns returns a throws dbexception access collection 
+Accesso	31	the access class allows the access management the access class has no dependencies federal author five empty builder of the access class builder access class param login param password param type 
+Login	54	method that returns a login return login method that sets a login param login method that returns the login of the employed return login method that sets the login of the employed param login method that returns the login of the employed return login method that sets the login of the employed param login 
+Password	14	method that returns a password return password method that sets a password to password 
+Tipo	22	method that returns the type of user that accesses return type method that sets the type of user that accesses to type 
+toString	39	method that converts into a string the information of an access return string method that converts into a string the information of an access return string method that converts into a string the information of an access return string 
+AdminManager	23	the adminmanager class interacts with the database management classes the adminmanager class does not have federal author dependencies five adminmanager class default builders 
+modificaAdmin	40	method that modifies an administrator by invoking the relative class method db param matrices the string that identifies the administrator param newadmin administrator with the updated data return true if an entry in db has been made , otherwise false 
+ricercaAdminByMatricola	30	method that returns an administrator by invoking its class db param matrix string method that is used as the matrix of the return administrator returns an administrator-type object throws dbexception 
+inserisciAdmin	35	method that inserts an administrator into the db by invoking the related class db to newadmin type return true administrator method if an insertion into the db has been made , false otherwise throws dbexception 
+eliminaAmministratore	75	method that eliminates an administrator from the db by invoking the relative class db param method records the entire one that is used as a true return matrix if a deletion has been made in the db , false otherwise throws dbexception method that eliminates an administrator from db param matr the entire one that is used as a true return matrix if a deletion has been made in db , false otherwise throws dbexception 
+getAmministratoreByLogin	53	method that returns an administrator by invoking its class db param login string method that is used as a return administrator login returns an administrator type object throws dbexception method that returns an administrator param log string that is used as the administrator 's login return returns an administrator type object throws dbexception 
+getAmministratoreByName	82	method that returns a set of administrators invoking its class method db param string name that is used as the name of the administrator param string that is used as the name of the administrator return returns a collection of administrators throws dbexception method that returns a set of administrators param nomeimp string that is used as the name of the administrator param cognimp string that is used as the name of the administrator return returns a collection of administrators throws dbexception 
+getAmministratori	32	method that returns all stored administrators return returns a collection of throws dbexception administrators method that returns all stored administrators return returns returns returns returns returns a collection of throws dbexception administrators 
+Amministratore	38	the class administrator allows the management of administrators the class administrator has no dependencies federal author five empty constructor of the class administrator constructor of the class administrator to name param surname param matricola param email param login 
+Nome	40	method that returns the name of the employee return name method that sets the name of the employee by name method that returns the name of the employee return name method that sets the name of the employee by name 
+Cognome	40	method that returns the surname of the employed return surname method that imposes the surname of the employee to surname method that returns the surname of the employed return surname method that imposes the surname of the employee to surname 
+Matricola	41	method that returns the matrix of the matrix return employed method that sets the matrix of the employed param matrix method that returns the matrix of the matrix return employed matrix method that sets the matrix of the employed param matrix 
+Email	39	method that returns the e mail of the employee return email method that sets the employee 's email to email method that returns the email of the employee return email method that sets the employee 's email to email 
+CartaIdentita	102	is a javabean that manages the methods of setting and returning the attributes of the identity card of a French author author of the default blank object that is returned from the database param every paper param citt param res param via param stciv param prof param stat param cap param eyes param sp param dr. param ds param validesp param num civ public class cartaidentita { creates the identity card of the citizen who has registered in the municipal system by taking from the citizen class the information necessary for the creation of the public class card identification document { i 
+Numero	49	represents the identity card code entered by the employee the unique identity card code requested by the citizen , is entered by the employee at the time of the paper creation of the document and at the time when the information is to be kept in the database . 
+Cittadinanza	21	check the identity card I am creating to the citizen who requested it and who is present in the municipal database 
+CIManager	20	cimanager class interacts with database management classes cimanager class does not have federal author dependencies five cimanager class default builder 
+getCartaByNumero	44	the method by which an identity card can be searched by its number , using the corresponding class method db for the identity card number of the citizen . return the paper entity type object associated with the past number as throws dbexception parameter 
+Cittadino	52	is a javabean that manages the get and set methods of the attributes of a French citizen author by default vacuum get and set of attributes of a parametric constructor citizen that creates the citizen object with the data entered by the latter at the time of registration in the municipal system 
+CittadinoManager	27	the city manager class interacts with the database management classes the city manager class does not have federal author dependencies five manufacturers of the default class cimanager 
+getCittadinoByLogin	37	method that allows the search for a citizen through its login invoking its class method db param login is the login according to which you want to perform the search return the citizen type object throws dbexception 
+modificaLogin	80	method that allows the login to be changed for a specific citizen by invoking its class method db param idcitt is the citizen 's id param newlogin is the new citizen return true login if the operation went well , otherwise bottles method that allows the login to be changed for a specific citizen . ( update of db ) param idc is the citizen id param newlogin is the new citizen return true login if the operation went well 
+modificaEmail	52	method that allows the modification of the e mail address of a specific citizen invoking the relative class method db param idCitizen is the citizen 's identification by email is the new mail to assign to the citizen return true if the operation is carried out successfully , bottles otherwise throws dbexception 
+inserisciCittadino	34	the method by which a new citizen can be inserted by invoking the relevant class method db to citizen is the citizen 's request return the ID of the inserted citizen . throws dbexception 
+ricercaCittadino	55	method that allows the search of a set of citizens by their name and surname invoking the relative method of class db param parameter name on which to perform the search by parameter surname on which to perform the search return a collection of citizens with the past name and surname as parameter throws dbexception 
+cancellaCittadino	67	method that allows the cancellation of a citizen by invoking its class method db param idcitt is the identity of the citizen return true if the operation is carried out successfully , otherwise throws dbexception method that allows the cancellation of a citizen . ( update of db ) param idcitt is the identity of the true return citizen if the operation is successfully performed throws dbexception 
+getCittadinoById	45	method that allows the search of a citizen by his or her ID invoking the relative class method db param idcitt is the identifier of the citizen return object of the citizen type with id equal to that of the past as throws dbexception parameter 
+modificaNucleoFamiliare	54	method that modifies the family nucleus of the citizen given his or her id invoking the relative class method db param idcitt is the citizen 's id param newid is the id of the new family nucleus of the citizen return true if the operation is carried out successfully , bottles otherwise throws dbexception 
+modificaNome	50	method that allows the name of a specific citizen to be changed by invoking its class method db param idcitt is the citizen 's identification param name is the new name to be assigned to the citizen return true if the operation is successfully carried out , otherwise throws dbexception 
+modificaCognome	51	method that allows the change of the name of a specific citizen by invoking its class method db param idcitt is the citizen 's identification by name is the new name to be assigned to the citizen return true if the operation is successfully carried out , bottles otherwise throws dbexception 
+Comune	30	the common class allows communication with the other common antonio authors version 1.0 manufacturer of default parametric constructor on behalf of the common to the ip addresses of the common 
+getNome	16	takes the name of the municipality return returns a string containing the name of the municipality 
+setNome	25	set the name of the municipality param n the string containing the new name of the municipality return returns the new name of the municipality 
+getIndirizzoId	18	takes the ip address of the municipality return returns a string containing the ip address of the municipality 
+setIndirizzoId	27	set the municipality 's ip address param n the string containing the new ip address of the municipality return returns the new ip address of the municipality 
+ControllerFiles	88	the class controllerfiles manages the upload of a file the class has no French author dependence today the class controllerfiles manages the upload of a file the class controllerfiles manages the upload of a file the class controllerfiles manages the upload of a file the class controllerfiles manages the upload of a file the class controllerfiles controllerfiles class manages the upload of a file controllerfiles class manages the upload of a file controllerfiles class manages the upload of a file controllerfiles class manages the upload of a file 
+DbAccesso	16	the access class handles connections to db to allow access . author antonio leone version 1.0 
+modificaAccesso	30	method that modifies a param log access the login that identifies a param access with updated data return true if the modification has been made in db , false otherwise 
+DbAmministratore	14	The class administrator handles the connections to the db author antonio leone version 1.0 
+inserisciAmministratore	26	method that inserts an administrator into the db for real administrator type objects if an insertion has been made into db , false otherwise throws dbexception 
+getAmministratoreByMatricola	25	method that returns an administrator param matrimp string that is used as a matrix of the administrator return returns an administrator type object throws dbexception 
+modificaAmministratore	32	method that modifies an administrator param matr string that identifies the administrator param to an administrator with updated true return data if a change in db has been made , false otherwise 
+DbCambioResidenza	19	class that deals with managing connections to the database and screening the servets with dbms . author Michelangelo cyaniciulli 
+changeResidence	131	method allowing the citizen 's identity card to be deleted when he or she changes residence to an external common ( update of db ) param cod is the identity card number of the person who has requested the change of residence to a common external return true if the operation is successfully performed throws dbexception method of updating the residence saved in the identity card of the citizen who has made a change of residence in the same municipality where he currently resides . ( update of db ) param cod is the number of the identity card param v is the new way in which the citizen will reside param nc is the new civic number of the citizen 's home return the updated paper entity object throws dbexception 
+DbCartaIdentita	17	class that handles connections to the database and screens the servlets from dbms . author Michelangelo cyaniciulli 
+ricercaCartaIdentitaByNumero	39	method that allows the search for an identity card through its number . param cod is the identity card number of the citizen . return the paper entity type object associated with the past number as throws dbexception parameter 
+cancellaCartaIdentita	33	method for deleting an identity card . ( update of db ) param cod is the identity card code that you intend to delete true return if the operation went well throws dbexception 
+registraCartaIdentita	31	method that allows the registration of a new identity card within the database param there is the real identity card type object return if the operation has gone well throws dbexception 
+modificaViaCartaIdentita	47	method allowing the path to be changed to a specific identity card . ( update of db ) param cod is the identity card number param v is the new way to register in the true return identity card if the operation is successfully performed throws dbexception 
+modificaNumeroCivicoCartaIdentita	43	method allowing the civic number to be changed to a specific identity card . ( update of db ) param cod is the identity card number param nc is the new civic return true number if the operation is successfully performed throws dbexception 
+modificaResidenzaCartaIdentita	57	method for changing residence ( street and civic number ) to a specific identity card . ( update of db ) param via is the new path to be recorded in the identity card param nc is the civic number to be recorded in the true return identity card if the operation is successfully performed throws dbexception 
+modificaDataRilascioCartaIdentita	47	method allowing modification of the date of issue of a specific identity card . ( update of db ) param cod is the identity card number param d is the new date of issue of the true return card if the operation is successfully performed throws dbexception 
+modificaDataScadenzaCartaIdentita	43	method allowing the expiry date to be changed for a specific identity card . ( update of db ) param cod is the identity card number param d is the new expiry date return true if the operation is successfully executed throws dbexception 
+modificaValidaEspatrio	54	Method for modifying the validity for the export of a specific identity card . ( update of db ) param cod is the identity card number param esp is the boolean value that indicates the validity for the expatriate for the specific return true identity card if the operation is successfully executed throws dbexception 
+ricercaCartaIdentitaByProprietario	34	the method by which an identity card can be searched from the owner 's ID param idc is the citizen 's ID return the paper type object of the specific citizen . throws dbexception 
+DbCittadino	28	class that deals with managing connections to the database and screening the servets with dbms . author michelangelo cyaniciulli public class dbcittadino public class dbcittadino public class dbcittadino 
+registraCittadino	29	method of registering a new citizen . ( update of db ) param citt is the citizen 's request return the ID of the inserted citizen . throws dbexception 
+modificaNomeCittadino	47	method allowing the name of a specific citizen to be changed . ( update of db ) param idcitt is the identity of the citizen param newname the new name to be assigned to the citizen return true if the operation is successfully carried out throws dbexception 
+modificaCognomeCittadino	47	a method allowing the name of a specific citizen to be changed . ( update of db ) param idcitt is the identity of the citizen param newsurname is the new name to assign to the citizen return true if the operation is successfully performed throws dbexception 
+modificaCodiceFiscaleCittadino	46	method for amending the tax code of a specific citizen . ( update of db ) param idcitt is the citizen 's identification param newcf is the new tax code to assign to the citizen true return if the operation is successfully carried out throws dbexception 
+modificaEmailCittadino	45	method for modifying the e-mail address of a specific citizen . ( update of db ) param idcitt is the identity of the citizen param newmail is the new email to assign to the citizen true return if the operation is successfully performed throws dbexception 
+modificaAdvertise	38	a method that allows the modification of the warning field of a specific citizen . ( update of db ) param idcitt is the identity of the true return citizen if the operation is successfully performed throws dbexception 
+getCittadinoByCodice	38	method that allows the search of a citizen through his or her ID . param idcitt is the identifier of the citizen return object type citizen with ID equal to that of the past as throws dbexception parameter 
+getCittadinoByName	46	method that allows the search of a group of citizens according to their name and surname . param name parameter on which to search param surname parameter on which to search return a collection of citizens with the name and surname past as parameter throws dbexception 
+connection	230	if ( rs.next ( ) { string l = rs.getstring ( `` login '' ) ; stmt = connection.preparestatement ( `` update access set login = ? where login = ? ) ; stmt.setstring ( 1 , newlogin ) ; stmt.setstring ( 2 , l ) ; method that allows a citizen to be searched through his login . param log is the log in by which you want to perform the search return the citizen type object throws dbexception private method that returns the ID of the last citizen inserted . return the highest id of the citizen 's table throws dbexception method that allows you to know the citizen 's id from his/her personal data ( tax code , surname , ( name ) param cf is the parameter tax code for search param surname is the parameter name for search param name is the parameter name for search return the citizen 's id if ok , -1 if the search has not succeeded method that allows search of the citizen 's tax code starting from his id param id is the citizen 's id return the citizen 's tax code method that changes the citizen 's family nucleus given his id param idcitt is the citizen 's id param newnucleus is the new citizen 's family nucleus return true if the operation is successfully performed throws dbexception 
+DbComune	16	dbcomune class is responsible for managing the connections to the db author antonio leone version 1.0 
+inserisciComune	27	method that inserts a common within db param c true common type return object if an insertion has been made into db , false otherwise throws dbexception 
+eliminaComune	28	method that eliminates a common from db param name that identifies the common true return if a deletion has been made in db , false otherwise throws dbexception 
+getComuneByName	21	method that returns a common name string that represents the name of the common return returns a common throws dbexception object 
+DbConnection	20	this class provides an antonio lion connection pool this portion of code creates a connection pool and defines db properties 
+getConnection	21	returns a connection to db , if not already available a new return is created a connection to db throws sqlexception 
+loadDbProperties	5	load db properties throws ioexception 
+closePool	6	method that closes the connection pool 
+DbException	18	the dbexception class is launched when there is an exception related to db author antonio leone version 1.0 
+DbImpiegato	13	dbimpiegato class handles the connections to the db author antonio leone version 1.0 
+inserisciImpiegato	65	method of inserting an employee within the db param the objects of type used true return if an insertion has been made into the db , otherwise false throws dbexception method that inserts an employee within the db invoking the relative method of class db param newly employed object of type used true return if it is insertion into db , false otherwise throws dbexception 
+eliminaImpiegato	72	method that eliminates a user from db param matr the string that is used as a true return matrix if a deletion has been made in db , false otherwise throws dbexception method that eliminates a user from db by invoking the relative method of the class db param matrix the string that is used as matrix return true if a deletion has been made in db , false otherwise throws dbexception 
+getImpiegatoByName	88	method that returns a set of employees to a string name that is used as the name of the employee to a string name that is used as the name of the employee return returns returns a collection of employees throws dbexception method that returns a set of employees by invoking the related class db method param nomeimp string that is used as the name of the employee param cognimp string that is used as the name of the employee return returns a collection of employees throws dbexception 
+getImpiegatoByMatricola	27	Method that returns a string param matrimp user that is used as the matrix of the return user returns an object of the type used throws dbexception 
+getImpiegati	35	method that returns all stored employees returns returns a collection of throws dbexception employees method that returns all stored employees invoking the relative class method db return returns returns a collection of throws dbexception employees 
+getImpiegatoByLogin	56	method that returns a user param log string that is used as login of the user return returns an object of type used throws dbexception method that returns an employee invoking its method of class db param login string that is used as login of the employed return returns a object of type used throws dbexception 
+modificaImpiegato	73	method that modifies an employee to the string that identifies the employee to the employee to the employee with updated true return data if a change has been made in db , false otherwise method that modifies an employee by invoking the relative class method db param matrices the string that identifies the new employee param used with updated data return true if an insertion in db has been made , false otherwise 
+DbNucleoFamiliare	13	dbnucleofamiliar class handles the connections to the db author antonio leone version 1.0 
+inserisciNucleoFamiliare	20	Method of inserting a nucleofamiliar object into db param nf nucleofamiliar return returns the family nucleus id inserted throws dbexception 
+eliminaNucleoFamiliare	37	method that eliminates a nuclear family from db param id the entire one that is used as id of the nuclear family return true if a deletion has been made in db , false otherwise throws dbexception 
+getStatoFamiglia	31	method that returns the components of a whole family state to the whole id that is used as id of the family nucleus return returns a collection of citizens throws dbexception 
+controllaIdFamiglia	34	Method to control the existence of a family nucleus param id the whole that is used as id of the family nucleus return true if the id is present , false otherwise throws dbexception 
+noteFamiglia	36	Method that allows the search for a family nucleus to know any known param id the whole that is used as id of the family nucleus return returns the notes of the family nucleus throws dbexception 
+setCapoFamiglia	112	method that modifies a head of the family to idf the whole one that is used as the family id to idc the whole one that is used as the head of the family return true if the modification has been successful , otherwise false throws dbexception sets the header id a string that contains the new header id method that modifies a head of the family by invoking the relative method of class db param id the whole that is used as the family id param idcitt the whole that is used as the head of the family id return true if the change was successful , otherwise false throws dbexception 
+getNucleoFamiliareById	25	method that returns a family nucleus to the whole of the family nucleus id id returns returns an object of the family type throws dbexception 
+setnComponenti	45	method that modifies the number of components of the family nucleus to idf the whole that is used as family id param n the whole that represents the new number of true return components if the change has been successful , otherwise false throws dbexception 
+DbRichiesta	13	dbRequested class handles the connections to the db author antonio leone version 1.0 
+inserisciRichiesta	27	method that inserts a request within the db param ric object type return true if an insertion has been made in db , false otherwise throws dbexception 
+eliminaRichiesta	35	method that eliminates a request from db param id the entire one that is used as id of the true return request if a deletion has been made in db , false otherwise throws dbexception 
+getRichiestaById	27	method that returns a full-length request to m id that is used as id of the return request returns an object of the requested type throws dbexception 
+getRichiestaByRichiedente	27	Method that returns a set of requests to hydro the whole that is used as id of the applicant return returns a collection of requests throws dbexception 
+getRichiestaByStato	39	method that returns a set of requests to hydro the whole that is used as id of the applicant param state the string that is used as state of the request return returns a collection of requested throws dbexception 
+getRichiestaByTipo	40	method that returns a set of requests to m idr the entire one that is used as the applicant 's id param type string that is used as the type of request return returns a collection of requested throws dbexception 
+setStatoRichiesta	48	method that modifies the status of a param hydro request the entire one that is used as the id of the request param state the string that is used as the state of the true return request if the change has been successful , otherwise false throws sqlexception 
+getRichieste	15	method that returns a set of return requests returns a collection of throws dbexception requests 
+Impiegato	41	the class employed only allows the administrator to manage the employees the class employed has no dependencies federal author five empty constructor of the class employed constructor of the class employed by name param surname param matricola param email param login 
+ImpiegatoManager	24	the employee management class interacts with the database management classes the employee management class has no dependencies federal author five employee management class manufacturer 
+ricercaImpiegatoByMatricola	35	method that returns an employee by invoking the relative method of class db param matrix string that is used as the matrix of the employed return returns returns an object of type used throws dbexception 
+NucleoFamiliare	73	This class deals with the family status of the citizen author christian ronca standard builder to whom the family member contains the id of the family group to m main family contains the id of the main family to m notice if note returns the id of the family state a string containing the id of the state family sect the returned family state id string that contains the new family state id 
+getCapoFamiglia	14	returns the main family id returns a string that contains the main family id 
+getNote	11	Returns the notes issued a string containing a previously issued note 
+setNote	9	inserts a returned string note containing the issued note 
+getNComponenti	14	returns the number of full returnable family members containing the number of family members 
+setNComponenti	21	sect the number of components of the complete returnable family nucleus containing the new number of components of the family nucleus 
+NucleoFamiliareManager	28	the family management class interacts with the database management classes the family management class has no dependencies federal author five manufacturers of default of the family management class 
+inserisciNucleo	32	method of inserting a nucleophilic object into the db by invoking the relative class db method for class db param nf nucleophilic return object returns the family nucleus id inserted throws dbexception 
+controllaidFamiglia	42	Method to control the existence of a family nucleus by invoking the relative class method db param id the whole that is used as the id of the family nucleus return true if the id is present , false otherwise throws dbexception 
+getNComponentiNucleo	42	method that returns the number of components of the family nucleus by invoking the relative class db param id method of the family nucleus whose number of true return components is required if the id is present , false otherwise throws dbexception 
+incrementaComponenti	41	method that increases the number of components of the family nucleus by invoking a method of the family nucleus class db param id that you want to modify true return if the modification has been successful , otherwise false throws dbexception 
+decrementaComponenti	42	method that decreases the number of components of the family nucleus by invoking a method of class db param id of the family nucleus that you want to modify true return if the modification has been successful , otherwise false throws dbexception 
+Richiesta	116	class that manages the methods of the requested object author christian ronca version 1.0 manufacturer of default parameteric manufacturer param hydraichiesta id of the request param type of the request param date on which the request was made to applicant id of the applicant param state of progress Request for document link to requested document Parametric manufacturer by type of request by date on which request was made to applicant ID of the applicant for progress status of request for document link to requested document string with the setta request id a new id to the request param extracts in input a string that contains the new request id a string that contains the new id 
+getTipo	14	retrieves the type of request executed a string that contains the type of request 
+setTipo	27	setta the type of the param request takes in input a string that contains the type of the return request a string that contains the new type 
+getData	18	take the date on which the return request was made a string containing the date of the request 
+setData	25	set the date to the request param extracts in input a string containing the date of the request return a string containing the new date 
+getRichiedente	21	retrieve the ID of the applicant who has made the request and return a string with the ID of the request 
+setRichiedente	22	set the requester param draws in input a string that contains the requester of the requester return string that contains the requester 
+getStato	14	take the status of the request return string with the ID of the request 
+setStato	25	set the state of the request param extracts in input a string containing the date of the request return a string containing the new date 
+getDocumento	15	retrieve the link to the requested document return string with the ID of the request 
+setDocumento	24	set the link to the param document . String contains the link to the requested document . Return string containing the new document . 
+isAccettata	19	returns a boolean value if the request has been accepted to return true if the request has been accepted 
+isRifiutata	17	returns a boolean value if the request has been rejected irreversibly if the request has been rejected 
+ServletAnnulla	20	the servletannulla class cancels the operation that the user was performing the servletannulla class has no federal author dependencies five 
+ServletCaricaPratica	21	the servo-charging class loads citizen and paper objects in one session the class depends on dbcitizen and dbcartaidentita christian author ronca 
+ServletCreaPdfCambioAbitazione	381	the servletcreapdfchangeover class a pdf file based on the data received from a jsp page the class has no author dependency christian snores the servletcreapdfchangeover class a pdf file based on the data received from a jsp page the servletcreapdfchangeover class a pdf file based on the data received from a page jsp the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the class servletcreapdfchange a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on the data received from a jsp page the servletcreapdfchange class a pdf file based on the data received from a jsp page the servletcreapdfchange class a pdf file based on the data received from a jsp page the class servletcreapdfchange a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on the data received from a jsp page the servletcreapdfchange class a pdf file based on the data received from a jsp page the servletcreapdfchange class a pdf file based on the data received from a jsp page the class servletcreapdfchange a pdf file based on data received from a jsp page the servletcreapdfchange class a pdf file based on data received from a jsp page 
+ServletCreaPdfCertificati	38	the servletcreapdfcertificati class creates a pdf file with the data received from a jsp page the class has no author dependency christian snores the class servletcreapdfcertificati creates a pdf file with the data received from a jsp page 
+ServletCreaPdfCittadino	53	the servletcreapdfcitizen class a pdf file based on the data received from a jsp page the class has no dependence Christian author snores the class servletcreapdfcitizen a pdf file based on the data received from a jsp page the class servletcreapdfcitizen a pdf file based on the data received from a jsp page 
+ServletEliminaAmministratore	74	the class servleteliminamnamistributor research and eliminates an administrator the class servletenamistributor has no dependencies federal author five the class servleteliminamnamistributor research and eliminates an administrator the class servletenamistributor research and eliminates an administrator the class servletelimit administrator research and eliminates an administrator class servletelimit administrator research and eliminates an administrator class servletelimit administrator research and eliminates an administrator class servletelimit administrator research and eliminates an administrator class servletelimit administrator research and delete an administrator 
+ServletEliminaCittadino	146	The threshold class researches and eliminates a citizen the threshold class does not have federal author dependencies five the threshold class researches and eliminates a citizen the threshold class for research and eliminates a citizen the threshold class for research and eliminates a citizen the search threshold class and eliminates a citizen the class servleteliminacittin research and eliminates a citizen the class servleteliminacittin research and eliminates a citizen the class servleteliminacittin research and eliminates a citizen the class servleteliminacittin research and eliminates a citizen the class servleteliminacittin research and eliminates a citizen the class the search and elimination of a citizen the search and elimination of a citizen the search and elimination of a citizen the search and elimination of a citizen the search and elimination class the search and elimination of a citizen the search and elimination class the search and elimination of a citizen 
+ServletEliminaImpiegato	65	the servletelimine class engaged in research and eliminates an employee the servletelimine class engaged has no dependencies federal author five the servletelimine class engaged research and eliminates an employee the servletelimine class engaged research and eliminates an employee the servletelimine class engaged research and eliminates an employee the Search and delete an employee , search and delete an employee , search and delete an employee 
+ServletInserisciAmministratore	47	the servletinseri class administrator inserts an administrator into the database the servletinserisciaministrator class does not have federal author dependencies five the servletinserisciaministrator class inserts an administrator into the database the servletinserisciaministrator class inserts an administrator into the database the class servletinseriadministrator inserts an administrator into the database 
+ServletInserisciCittadino	109	the servletinserisctadino class inserts a citizen into the database the servletinseriscicittadino class does not have federal author dependencies five the servletinserisctadino class inserts a citizen into the database the servletinserisctadino class inserts a citizen into the database the servletinserisctadino class inserts a citizen in the database the servletinserisctadino class enters a citizen into the database the servletinserisctadino class enters a citizen into the database the servletinserisctadino class enters a citizen into the database the servletinserisctadino class enters a citizen into the database the class servletinselicitadino enters a citizen into the database the servletinselicitadino class enters a citizen into the database the servletinselicitadino class enters a citizen into the database 
+ServletInserisciImpiegato	43	the server class enters an employee into the database the server class involved has no dependencies federal author five the server class involved enters an employee into the database the server class involved enters an employee into the database used in the database 
+ServletLogin	48	the servletlogin class performs the authentication operation of a user in the system the servletlogin class has no federal author dependencies five the servletlogin class performs the authentication operation of a user in the system the servletlogin class performs the authentication operation of a user in the system 
+ServletLogout	22	the servletlogout class performs the logout operation of a user from the system the servletlogout class has no dependencies federal author five 
+ServletModificaAccesso	80	the Server Modification Access class that performs the modification of an access operation the Server Modification Access class has no dependencies federal author five the Server Modification Access class that performs the modification of an access operation the Server Modification Access class that performs the modification of an access operation the class Server Modification Access that modifies an access operation The Server Modification Access Class that modifies an access operation The Server Modification Access Class that modifies an access operation 
+ServletModificaAmministratore	73	the servo-modifier class that performs the modification operation of an administrator the servo-modifier class does not have federal author dependencies five the servo-modifier class that performs the modification operation of an administrator the servo-modifier class that performs the operation for the modification of an administrator , the administrator servo class which carries out the modification operation of an administrator , the administrator servo class which carries out the modification operation of an administrator 
+ServletModificaCittadino	258	the servo-modifier class that performs the modification of a citizen the servo-modifier class does not have federal author dependencies five the servo-modifier class that performs the modification of a citizen the servo-modifier class that performs the modification of a citizen the citizen 's servo-change class performing the citizen 's change operation , the citizen 's servo-change class performing the citizen 's change operation , the citizen 's servo-change class performing the citizen 's change operation , the citizen 's servo-change class performing the change operation ; citizen the servo-modifier class which carries out the change of a citizen the servo-modifier class which carries out the change of a citizen the servo-modifier class which carries out the change of a citizen the servo-modifier class which carries out the change of a citizen change a citizen 's servo-modifier class that carries out the change of a citizen 's servo-modifier class that carries out the change of a citizen 's servo-modifier class that carries out the change of a citizen 's servo-modifier class that carries out the change of a citizen 's the operation to change a citizen , the class to change a citizen , the class to change a citizen , the class to change a citizen , the class to change a citizen , the class to change a citizen , the class to change a citizen who makes the change of a citizen , the change of a citizen , the change of a citizen , the change of a citizen , the change of a citizen 
+ServletModificaImpiegato	68	the modified servlet class that performs the modification of an employee the modified servlet class does not have federal author dependencies five the modified servlet class that performs the modification of an employee the modified servlet class that performs the modification of an employee the modified servlet class that performs the modification of an employee , the modified servlet class that performs the modification of an employee ; 
+CercaFiles	245	method of searching for files containing requests for change of residence by citizens.This folder is saved on the server on which the employee can access it to find the information useful for filling out the form to be registered within the municipal archive from is the folder in which to search the file of name `` name '' and type `` .pdf '' param from param param param type name if the session was created correctly at employee access , the method that checks if there are pdf files concerning the change of residence inside or outside required by citizens ( 1 ) what the servlet must do : it must take the ID of the citizen whose identity card has entered the form and pass it to the main method to search for the corresponding file ( 2 ) the identity card code and the date of the request takes them with request.getparameter saving them in the appropriate variables , then the method that returns a citizen 's ID is called after having given him the name , surname and tax code of the latter . Once the parameters are saved , I switch them to the method that returns the ID of this particular citizen who has sent the request for a change of residence and whose file you want to search once the citizen 's ID is known . I switch to the method of searching the file corresponding to it . 
+init	324	public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { public void init ( servletconfig conf ) throws servletexception { 
+ServletMostraAccesso	41	The servlet-display access class displays data related to the access of a caretaker or administrator the servlet-display access class does not have federal author dependencies five the servlet-display access class displays data related to the access of a caretaker or administrator 
+ServletMostraAccessoA	19	The handheld class displays the access data of a citizen the handheld class has no dependencies federal author five 
+ServletRecuperoPassword	71	the password recovery class manages the password recovery operation for a citizen the password recovery class does not have federal author dependencies five the password recovery class manages the password recovery operation for a citizen the password recovery class manages the password recovery operation for a citizen the password recovery class manages the password recovery operation for a citizen the password recovery class manages the password recovery operation for a citizen 
+ServletRegistraCittadino	26	the citizen 's servlet class manages the operation of registration of a citizen in the system the citizen servlet class has no dependencies federal author five 
+ServletRicercaAmministratore	21	the research administrator servletclass and returns the data of an administrator the research administrator servletclass has no dependencies federal author five 
+ServletRicercaCittadino	22	the servo researcher class researches and returns the data of a citizen the servo researcher class has no dependencies federal author five 
+ServletRicercaImpiegato	22	the servletresearcher class employed research and returns the data of an employee the servletresearcher class employed has no dependencies federal author five 
+ServletRicercaPratica	36	the practical search engine class returns a practice specified in the search engine the class depends on the class dbreque author christian snores the practical search engine class returns a practice specified in the search engine 
+doPost	8	server side response servlets intended for the client 
+ServletRisposta	14	public class napkin response extends httpservlet { public class napkin response extends httpservlet { 
+ServletStatoDiFamiglia	50	the servletstator family class returns a list of family members the class depends on the dbnucleofamiliar class author christian snores the servletstator family class returns a list of family members the servletstator family class returns a list of family members the class family member returns a list of family members 
+ServletVisualizzaPratiche	28	the class servletvisualize practices returns a list of requests the class depends on the class dbrequested author christian snores the class servletvisualize practices returns a list of requests 
+Manager	1	manager 
+dbAccesso	2	database access 
+boolean	1	boolean 
+String	1	string 
+Bean	1	bean 
+getLogin	2	search login 
+setLogin	2	set login 
+void	1	void 
+getPassword	2	search password 
+setPassword	2	set password 
+dbAmministratore	2	database administrator 
+getCognome	2	search surname 
+setCognome	2	set surname 
+getMatricola	2	search matrix 
+setMatricola	2	set matrix 
+getEmail	2	search email 
+setEmail	2	set email 
+idCittadino	2	id citizen 
+int	1	int 
+Residenza	1	residence 
+Via	1	via 
+StatoCivile	2	state civil 
+Professione	1	profession 
+Statura	1	status 
+double	1	double 
+Capelli	1	hair 
+Occhi	1	eyes 
+SegniParticolari	2	sign particular 
+DataRilascio	2	date release 
+Date	1	date 
+DataScadenza	2	date expiry 
+ValidaEspatrio	2	valid espatrio 
+num_civico	2	number civic 
+dbCartaIdentita	3	database letter identity 
+getCartaByIdCStri	5	search letter by id string 
+ci	1	our 
+CodiceFiscale	2	code tax 
+DataNascita	2	date born 
+LuogoNascita	2	place born 
+Advertise	1	advertising 
+nucleoFamiliare	2	core family 
+dbCittadino	2	database citizen 
+nome	1	name 
+indirizzoIp	2	address ip 
+Servlet	1	servet 
+HttpServlet	2	http servet 
+HttpServletRequest	3	http servet request 
+HttpServletResponse	3	http servet response 
+ServletException	2	servet exception 
+IOException	1	exception 
+DB	1	database 
+Connection	1	connection 
+changeResidenceIn	3	update residence in 
+java.util.Date	1	date 
+dbProperties	2	database property 
+Properties	1	property 
+cpds	1	cpd 
+ComboPooledDataSource	4	combo pool date source 
+createPool	2	create pool 
+SQLException	2	exception sql 
+PropertyVetoException	3	property veto exception 
+RuntimeException	2	round exception 
+serialVersionUID	2	series version 
+long	1	long 
+lastId	2	last id 
+dbImpiegato	2	database employee 
+idNucleoFamiliare	3	id core family 
+capoFamiglia	2	chief family 
+nota	1	note 
+nComponenti	1	components 
+getIdNucleoFamiliare	4	search id core family 
+setIdNucleoFamiliare	4	set id core family 
+nucleoF	1	core 
+getNucleo	2	search core 
+idRichiesta	2	id request 
+tipo	1	type 
+data	1	date 
+richiedente	1	applicant 
+stato	1	state 
+documento	1	document 
+getIdRichiesta	3	search id request 
+setIdRichiesta	3	set id request 
+doGet	2	do get 
+session	1	session 
+HttpSession	2	http session 
+cognome	1	surname 
+email	1	email 
+matricola	1	matrix 
+login	1	login 
+password	1	password 
+cf	1	compare 
+giorno	1	day 
+mese	1	month 
+anno	1	year 
+dataN	1	date 
+luogoN	1	location 
+advertise	1	warnings 
+idNF	1	id 
+cittadino	1	citizen 
+NFM	1	nfm 
+cpassword	1	password 
+CM	1	cm 
+ServletConfig	2	servet config 

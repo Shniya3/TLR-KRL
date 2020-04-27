@@ -1,0 +1,15 @@
+Case name: Identity Card Request Accepted
+Participating actors: Started by Employee, continued citizen
+Flow of events:
+1. The employee displays the notification received.
+2. The system shows the employee the request to create the identity card from part of the citizen.
+3. The employee certifies the validity of the request by checking the accuracy of the data and enables the procedure for creating the identity card.
+4. The system sends a confirmation e-mail to the citizen who requested the creation of the identity card. 
+5. The citizen goes to the counter.
+Entry condition:
+The employee is authenticated in the system
+(This use case extends Identity Card Request) and occurs when the employee confirms the request of the citizen.
+Exit conditions:
+The system alerts the citizen.
+Quality requirements:
+Not expected.

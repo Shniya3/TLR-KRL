@@ -1,0 +1,14 @@
+Case name: DisplayPractice
+Participating actors: Initiated by a citizen
+Flow of events: 
+1. Citizens click on the view files button (Identity Card e0, Change Residence).
+2. The system displays a screen with the practices concerning the citizen.
+Entry condition:
+The citizen is authenticated in the system.
+Exit conditions:
+The citizen displays the screen, OR
+If the citizen wants to cancel a file, the system calls the case of use Clear Practice, OR
+The system calls in the case in which the citizen wants to modify a practice the case of use Edit Practice, OR
+The case is called if the service is not available. Service Not Available.
+Quality requirements:
+Not Expected

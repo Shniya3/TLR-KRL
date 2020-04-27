@@ -1,0 +1,16 @@
+Case name: CancellaPratica
+Participating actors: Initiated by a citizen
+Flow of events:
+1. The citizen presses the practice cancellation button (identity card, change residence) if the case has not been initialized.
+2. The system asks the city for confirmation.
+3. The city confirms the operation. 
+4. The system deletes the practice. 
+Entry condition:
+The citizen is authenticated in the system.
+(This case extends VisualizzaPratica) and occurs when the citizen wants to cancel practice.
+Exit conditions:
+The citizen does not confirm the operation, OR 
+The system deletes the practice, OR
+The case is called if the service is not available. Service Not Available.
+Quality requirements:
+Not expected.

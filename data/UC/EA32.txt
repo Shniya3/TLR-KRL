@@ -1,0 +1,14 @@
+Case name: Request DateIdentit Rejected
+Participating actors: Started by Employee, continued citizen
+Flow of events:
+1. The employee displays the notification received.
+2. The system shows the employee the request to create the identity card from part of the citizen.
+3. The employee detects an error in the data and refuses the procedure for creating the identity card.
+4. The system sends an e-mail notification to the citizen who requested the creation of the identity card.
+Entry condition:
+The employee is authenticated in the system.
+(This use case extends Identity Card Request) and occurs when the employee does not confirm the citizen's request.
+Exit conditions:
+The system alerts the citizen.
+Quality requirements:
+Not expected.
